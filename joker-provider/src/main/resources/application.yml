@@ -1,0 +1,23 @@
+
+server:
+  port: 8002
+
+spring:
+  application:
+    name: joker-provider
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8001/eureka/
+instance:
+  instance-id: jokerservice-8002  #自定义服务名称信息
+  prefer-ip-address: true         #访问路径可以显示IP地址
+
+
+
+info:
+  app.name: joker-servicecloud
+  company.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
