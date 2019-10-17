@@ -1,6 +1,6 @@
 
 server:
-  port: 8002
+  port: 8005
 
 spring:
   application:
@@ -9,11 +9,10 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8001/eureka/
-instance:
-  instance-id: jokerservice-8002  #自定义服务名称信息
-  prefer-ip-address: true         #访问路径可以显示IP地址
-
+      defaultZone: http://eureka-server1:8001/eureka/,http://eureka-server2:8002/eureka/，http://eureka-server3:8003/eureka/
+  instance:
+    instance-id: jokerservice-8005  #自定义服务名称信息
+    prefer-ip-address: true         #访问路径可以显示IP地址
 
 
 info:

@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/joker-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/joker-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-eureka2/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-eureka3/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-consumer/pom.xml" />
       </list>
     </option>
   </component>

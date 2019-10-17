@@ -1,0 +1,15 @@
+
+server:
+  port: 9001
+
+spring:
+  application:
+    name: joker-consumer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server1:8001/eureka/,http://eureka-server2:8002/eureka/，http://eureka-server3:8003/eureka/
+  instance:
+    instance-id: jokerconsumer-9001  #自定义服务名称信息
+    prefer-ip-address: true         #访问路径可以显示IP地址
