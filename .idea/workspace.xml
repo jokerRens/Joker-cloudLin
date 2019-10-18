@@ -2,45 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer/src/test/java/com/example/consumer/ConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/src/main/java/com/example/eureka2/Eureka2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka2/src/test/java/com/example/eureka2/Eureka2ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/src/main/java/com/example/eureka3/Eureka3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-eureka3/src/test/java/com/example/eureka3/Eureka3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/Provider2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider2/src/test/java/com/example/provider2/Provider2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/Provider3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-provider3/src/test/java/com/example/provider3/Provider3ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,6 +41,8 @@
     <ignored path="$PROJECT_DIR$/joker-eureka2/target/" />
     <ignored path="$PROJECT_DIR$/joker-eureka3/target/" />
     <ignored path="$PROJECT_DIR$/joker-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/joker-provider2/target/" />
+    <ignored path="$PROJECT_DIR$/joker-provider3/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,39 +50,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="345">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/MySelfRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java">
+        <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="368">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-provider2/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -96,22 +119,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="138">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -119,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/joker-provider/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="123">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -133,6 +163,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ribbon</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,11 +184,19 @@
         <option value="$PROJECT_DIR$/joker-eureka3/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/joker-eureka2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/joker-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java" />
+        <option value="$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/Provider2Application.java" />
+        <option value="$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/Provider3Application.java" />
+        <option value="$PROJECT_DIR$/joker-provider2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-provider3/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/MySelfRule.java" />
+        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java" />
       </list>
     </option>
   </component>
@@ -169,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,51 +222,25 @@
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -232,17 +248,38 @@
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jokerprovider" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +289,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571319373798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571396440138" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-eureka2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -261,6 +298,10 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.provider3.controller" />
+      <recent name="com.example.provider2.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Joker\jokerLin" />
     </key>
@@ -313,6 +354,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Provider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.provider2.Provider2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-provider3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.provider3.Provider3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -324,54 +379,82 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571308359586</updated>
-      <workItem from="1571308362955" duration="8509000" />
+      <workItem from="1571308362955" duration="9088000" />
+      <workItem from="1571364213197" duration="1151000" />
+      <workItem from="1571365411812" duration="786000" />
+      <workItem from="1571367079009" duration="9178000" />
     </task>
+    <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
+      <created>1571319454540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571319454541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8509000" />
+    <option name="totallyTimeSpent" value="20203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38773388" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46673596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Joker =&gt; euraka集群" />
+    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; euraka集群" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java</url>
+          <line>67</line>
+          <properties class="com.example.ribbon.RandomRuleJoker" method="chooseRandomInt">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/joker-eureka/src/main/java/com/example/jokereureka/jokereureka/JokerEurekaApplication.java">
@@ -381,20 +464,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka2/src/main/java/com/example/jokereureka/jokereureka/JokerEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka2/src/test/java/com/example/jokereureka/jokereureka/JokerEurekaApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-eureka2/src/main/java/com/example/jokereureka/jokereureka/JokerEurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/joker-eureka2/src/test/java/com/example/jokereureka/jokereureka/JokerEurekaApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/joker-eureka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -413,13 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/JokerProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -447,58 +511,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="24" />
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.0.RELEASE/spring-web-5.2.0.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="444" column="40" lean-forward="true" selection-start-line="444" selection-start-column="40" selection-end-line="444" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/Provider2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="115">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/Provider3Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/JokerProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/joker-provider2/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="145">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="138">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="437">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/MySelfRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
