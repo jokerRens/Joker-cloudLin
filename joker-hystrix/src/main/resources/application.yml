@@ -1,0 +1,20 @@
+server:
+  port: 8008
+
+spring:
+  application:
+    name: joker-provider
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server1:8001/eureka/,http://eureka-server2:8002/eureka/??http://eureka-server3:8003/eureka/
+  instance:
+    instance-id: jokerservice-8008-hystrix  #???????????????
+    prefer-ip-address: true         #????¡¤?????????IP???
+
+info:
+  app.name: joker-servicecloud
+  company.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$

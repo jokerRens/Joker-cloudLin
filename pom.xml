@@ -8,6 +8,17 @@
     <artifactId>jokerLin</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>joker-eureka</module>
+        <module>joker-eureka2</module>
+        <module>joker-eureka3</module>
+        <module>joker-provider</module>
+        <module>joker-provider2</module>
+        <module>joker-provider3</module>
+        <module>joker-service</module>
+        <module>joker-consumer</module>
+        <module>joker-consumer2</module>
+    </modules>
 
     <!--配置所有 src/main/resources下的$XXXX$配置的信息都可以访问-->
     <build>
@@ -30,5 +41,7 @@
             </plugin>
         </plugins>
     </build>
+
+
 
 </project>

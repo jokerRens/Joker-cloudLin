@@ -7,12 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="joker-consumer" />
+        <module name="joker-consumer2" />
         <module name="joker-eureka" />
         <module name="joker-eureka2" />
         <module name="joker-eureka3" />
+        <module name="joker-hystrix" />
         <module name="joker-provider" />
         <module name="joker-provider2" />
         <module name="joker-provider3" />
+        <module name="joker-service" />
         <module name="jokerLin" />
       </profile>
     </annotationProcessing>
@@ -23,13 +26,16 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="joker-consumer" options="-parameters" />
+      <module name="joker-consumer2" options="-parameters" />
       <module name="joker-eureka" options="-parameters" />
       <module name="joker-eureka (1)" options="-parameters" />
       <module name="joker-eureka2" options="-parameters" />
       <module name="joker-eureka3" options="-parameters" />
+      <module name="joker-hystrix" options="-parameters" />
       <module name="joker-provider" options="-parameters" />
       <module name="joker-provider2" options="-parameters" />
       <module name="joker-provider3" options="-parameters" />
+      <module name="joker-service" options="-parameters" />
     </option>
   </component>
 </project>

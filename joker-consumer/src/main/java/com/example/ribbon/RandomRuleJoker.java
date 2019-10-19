@@ -1,6 +1,7 @@
 package com.example.ribbon;
 
 
+import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.AbstractLoadBalancerRule;
 import com.netflix.loadbalancer.ILoadBalancer;
 import com.netflix.loadbalancer.Server;
@@ -8,12 +9,18 @@ import com.netflix.loadbalancer.Server;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
-public abstract class RandomRuleJoker extends AbstractLoadBalancerRule {
+public class RandomRuleJoker extends AbstractLoadBalancerRule {
 
     /**
      * Randomly choose from all living servers
      * 自定义Ribbon  RandomRule随机算法
+     *
+     * 轮询、每台服务器被调用三次在切换下一个服务器
      */
+
+
+    private Integer total=0;    //当台服务器被调用次数
+    private Integer currentIndex=0;   //服务器地址下标
 
     public Server choose(ILoadBalancer lb, Object key) {
         if (lb == null) {
@@ -30,7 +37,7 @@ public abstract class RandomRuleJoker extends AbstractLoadBalancerRule {
             List<Server> upList = lb.getReachableServers();
             List<Server> allList = lb.getAllServers();
 
-            int serverCount = allList.size();
+            int serverCount = allList.size();           //serverCount有多少台
             if (serverCount == 0) {
                 /*
                  * No servers. End regardless of pass, because subsequent passes
@@ -39,8 +46,21 @@ public abstract class RandomRuleJoker extends AbstractLoadBalancerRule {
                 return null;
             }
 
-            int index = chooseRandomInt(serverCount);
-            server = upList.get(index);
+//            int index = chooseRandomInt(serverCount);
+//            server = upList.get(index);
+
+                //自定义模块
+                if (total<3){
+                    server=upList.get(currentIndex);
+                    total++;
+                }else{
+                    total=0;
+                    currentIndex++;
+                    if (currentIndex>=upList.size()){
+                        currentIndex=0;
+                    }
+                }
+
 
             if (server == null) {
                 /*
@@ -48,7 +68,7 @@ public abstract class RandomRuleJoker extends AbstractLoadBalancerRule {
                  * somehow trimmed. This is a transient condition. Retry after
                  * yielding.
                  */
-                Thread.yield();
+                Thread.yield();     //线程中断
                 continue;
             }
 
@@ -72,6 +92,11 @@ public abstract class RandomRuleJoker extends AbstractLoadBalancerRule {
     @Override
     public Server choose(Object key) {
         return choose(getLoadBalancer(), key);
+    }
+
+    @Override
+    public void initWithNiwsConfig(IClientConfig iClientConfig) {
+
     }
 
 }

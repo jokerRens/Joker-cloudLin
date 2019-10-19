@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/joker-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/joker-provider2/pom.xml" />
         <option value="$PROJECT_DIR$/joker-provider3/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-service/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-hystrix/pom.xml" />
       </list>
     </option>
   </component>
