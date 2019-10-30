@@ -29,7 +29,6 @@ public class ConsumerApplication {
         return new RestTemplate();
     }
 
-
     @Bean
     public IRule rule(){
        // return new RandomRule();        //使用随机算法，替换调默认的轮询算法

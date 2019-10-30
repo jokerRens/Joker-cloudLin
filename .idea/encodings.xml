@@ -3,14 +3,18 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/joker-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-consumer2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-eureka2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-eureka3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-provider2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-provider3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/joker-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit" charset="UTF-8" />
   </component>
 </project>

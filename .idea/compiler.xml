@@ -8,15 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="joker-consumer" />
         <module name="joker-consumer2" />
+        <module name="joker-dashboard" />
         <module name="joker-eureka" />
         <module name="joker-eureka2" />
         <module name="joker-eureka3" />
         <module name="joker-hystrix" />
+        <module name="joker-kafka" />
         <module name="joker-provider" />
         <module name="joker-provider2" />
         <module name="joker-provider3" />
+        <module name="joker-rabbitmq" />
         <module name="joker-service" />
+        <module name="joker-zuul" />
         <module name="jokerLin" />
+        <module name="rabbit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,15 +32,20 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="joker-consumer" options="-parameters" />
       <module name="joker-consumer2" options="-parameters" />
+      <module name="joker-dashboard" options="-parameters" />
       <module name="joker-eureka" options="-parameters" />
       <module name="joker-eureka (1)" options="-parameters" />
       <module name="joker-eureka2" options="-parameters" />
       <module name="joker-eureka3" options="-parameters" />
       <module name="joker-hystrix" options="-parameters" />
+      <module name="joker-kafka" options="-parameters" />
       <module name="joker-provider" options="-parameters" />
       <module name="joker-provider2" options="-parameters" />
       <module name="joker-provider3" options="-parameters" />
+      <module name="joker-rabbitmq" options="-parameters" />
       <module name="joker-service" options="-parameters" />
+      <module name="joker-zuul" options="-parameters" />
+      <module name="rabbit" options="-parameters" />
     </option>
   </component>
 </project>

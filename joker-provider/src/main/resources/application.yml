@@ -4,15 +4,15 @@ server:
 
 spring:
   application:
-    name: joker-provider
+    name: joker-providers
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka-server1:8001/eureka/,http://eureka-server2:8002/eureka/£¬http://eureka-server3:8003/eureka/
+      defaultZone: http://eureka-server1:8001/eureka/,http://eureka-server2:8002/eureka/ï¿½ï¿½http://eureka-server3:8003/eureka/
   instance:
-    instance-id: jokerservice-8005  #×Ô¶¨Òå·şÎñÃû³ÆĞÅÏ¢
-    prefer-ip-address: true         #·ÃÎÊÂ·¾¶¿ÉÒÔÏÔÊ¾IPµØÖ·
+    instance-id: jokerservice-8005  #ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
+    prefer-ip-address: true         #ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾IPï¿½ï¿½Ö·
 
 
 info:

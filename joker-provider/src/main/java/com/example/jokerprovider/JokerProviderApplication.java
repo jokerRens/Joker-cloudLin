@@ -7,7 +7,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableCircuitBreaker
 public class JokerProviderApplication {
 
     public static void main(String[] args) {

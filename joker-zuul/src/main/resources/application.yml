@@ -1,0 +1,31 @@
+
+server:
+  port: 8009
+
+spring:
+  application:
+    name: joker-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server1:8001/eureka/,http://eureka-server2:8002/eureka/,http://eureka-server3:8003/eureka/
+  instance:
+    instance-id: jokerzuul-8009  #???????????????
+    prefer-ip-address: true         #???????????????IP???
+
+
+info:
+  app.name: joker-servicecloud
+  company.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+
+zuul:
+  prefix: /joker
+  ignored-services: "*"
+  routes:
+    mydept.serviceId: JOKER-PROVIDER
+    mydept.path: /myjoker/**
+

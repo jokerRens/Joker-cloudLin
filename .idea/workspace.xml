@@ -1,48 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="Joker =&gt; ribbon负载均衡">
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/src/main/java/com/example/consumerfeign/ConsumerFeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/src/main/java/com/example/consumerfeign/controller/FeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-consumer2/src/test/java/com/example/consumerfeign/ConsumerFeignApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/HystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hystrix/src/test/java/com/example/hystrix/HystrixApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/service/IFeignHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/service/Joker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/service/impl/FeignHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-service/src/test/java/com/example/jokerservice/JokerServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/src/main/java/com/example/dashboard/DashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-dashboard/src/test/java/com/example/dashboard/DashboardApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/HelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/HelloRecv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/HelloSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/RabbitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitmqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/Recv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/Recv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/Recv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/simple/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/simple/send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/util/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/Recv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/test/java/com/rabbitmq/rabbitmq/RabbitmqApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/src/main/java/com/example/zuul/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/src/main/java/com/example/zuul/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-zuul/src/test/java/com/example/zuul/ZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/src/main/java/com/example/rabbit/RabbitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit/src/test/java/com/example/rabbit/RabbitApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/MySelfRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/MySelfRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-hystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hystrix/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/HystrixApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/HystrixApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/JokerProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/JokerProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-provider2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-provider2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-provider3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-provider3/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,6 +88,10 @@
     <ignored path="$PROJECT_DIR$/joker-consumer2/target/" />
     <ignored path="$PROJECT_DIR$/joker-service/target/" />
     <ignored path="$PROJECT_DIR$/joker-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/joker-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/joker-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/joker-rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/rabbit/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +99,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,6 +113,8 @@
     <findStrings>
       <find>ribbon</find>
       <find>joker</find>
+      <find>spring-boot-starter-web</find>
+      <find>starter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,29 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/joker-eureka/src/main/java/com/example/jokereureka/jokereureka/JokerEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/joker-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-eureka2/src/main/java/com/example/eureka2/Eureka2Application.java" />
-        <option value="$PROJECT_DIR$/joker-eureka3/src/main/java/com/example/eureka3/Eureka3Application.java" />
-        <option value="$PROJECT_DIR$/joker-eureka3/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-eureka2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java" />
-        <option value="$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/Provider2Application.java" />
-        <option value="$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/Provider3Application.java" />
-        <option value="$PROJECT_DIR$/joker-provider2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-provider3/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java" />
-        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/MySelfRule.java" />
-        <option value="$PROJECT_DIR$/joker-consumer2/src/main/java/com/example/consumerfeign/ConsumerFeignApplication.java" />
-        <option value="$PROJECT_DIR$/joker-consumer2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/joker-service/pom.xml" />
         <option value="$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/service/Joker.java" />
         <option value="$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/service/IFeignHello.java" />
@@ -129,9 +130,50 @@
         <option value="$PROJECT_DIR$/joker-hystrix/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/joker-consumer2/src/main/java/com/example/consumerfeign/controller/FeignController.java" />
         <option value="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/HystrixApplication.java" />
-        <option value="$PROJECT_DIR$/joker-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/joker-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-dashboard/src/main/java/com/example/dashboard/DashboardApplication.java" />
+        <option value="$PROJECT_DIR$/joker-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-provider3/pom.xml" />
         <option value="$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/JokerProviderApplication.java" />
+        <option value="$PROJECT_DIR$/joker-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/HystrixApplication.java" />
+        <option value="$PROJECT_DIR$/joker-zuul/src/main/java/com/example/zuul/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/joker-provider/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-zuul/src/main/java/com/example/zuul/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/util/connectionUtils.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/util/ConnectionUtils.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/send.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/simple/Recv.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/simple/send.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/send.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/Recv.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/Recv2.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/Recv.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/Recv2.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/send.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/HelloSend.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/RabbitTest.java" />
+        <option value="$PROJECT_DIR$/rabbit/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit/src/main/java/com/example/rabbit/RabbitApplication.java" />
+        <option value="$PROJECT_DIR$/rabbit/src/test/java/com/example/rabbit/RabbitApplicationTests.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/test/java/com/rabbitmq/rabbitmq/RabbitmqApplicationTests.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/HelloRecv.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitmqApplication.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/HelloApplicationTests.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/Recv.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/Recv2.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/Recv.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/send.java" />
+        <option value="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/Recv2.java" />
       </list>
     </option>
   </component>
@@ -142,10 +184,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="591" />
-    <option name="y" value="143" />
-    <option name="width" value="1482" />
-    <option name="height" value="656" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,98 +202,11 @@
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jokerprovider" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -263,7 +217,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571485145665" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572421653784" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-eureka2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -273,11 +227,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rabbitmq.rabbitmq.exchange" />
+      <recent name="com.example.zuul.controller" />
       <recent name="com.example.hystrix.controller" />
       <recent name="com.example.provider3.controller" />
       <recent name="com.example.provider2.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Joker\jokerLin\rabbit\src\main\resources" />
       <recent name="D:\Joker\jokerLin" />
     </key>
   </component>
@@ -293,7 +250,84 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixApplication">
+  <component name="RunManager" selected="JUnit.HelloApplicationTests">
+    <configuration name="HelloApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbitmq.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rabbitmq.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.rabbitmq.rabbitmq.HelloApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplicationTests.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbitmq.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rabbitmq.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.rabbitmq.rabbitmq.HelloApplicationTests" />
+      <option name="METHOD_NAME" value="hello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqApplicationTests (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbitmq.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rabbitmq.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.rabbitmq.rabbitmq.RabbitmqApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbitmq.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rabbitmq.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.rabbitmq.rabbitmq.RabbitmqApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbitmq.rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rabbitmq.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.rabbitmq.rabbitmq.RabbitmqApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.ConsumerApplication" />
@@ -304,6 +338,13 @@
     <configuration name="ConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-consumer2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumerfeign.ConsumerFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.dashboard.DashboardApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,6 +377,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JokerKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jokerkafka.JokerKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JokerProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jokerprovider.JokerProviderApplication" />
@@ -364,6 +412,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rabbit.RabbitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbitmq.rabbitmq.RabbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HelloApplicationTests" />
+        <item itemvalue="JUnit.HelloApplicationTests.hello" />
+        <item itemvalue="JUnit.RabbitmqApplicationTests" />
+        <item itemvalue="JUnit.RabbitmqApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.RabbitmqApplicationTests (3)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -379,7 +457,14 @@
       <workItem from="1571364213197" duration="1151000" />
       <workItem from="1571365411812" duration="786000" />
       <workItem from="1571367079009" duration="9234000" />
-      <workItem from="1571457419191" duration="11139000" />
+      <workItem from="1571457419191" duration="11228000" />
+      <workItem from="1571626051947" duration="19412000" />
+      <workItem from="1571709117598" duration="599000" />
+      <workItem from="1571898566561" duration="27123000" />
+      <workItem from="1572062376159" duration="626000" />
+      <workItem from="1572320000807" duration="1277000" />
+      <workItem from="1572400299106" duration="66000" />
+      <workItem from="1572421376740" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -395,17 +480,56 @@
       <option name="project" value="LOCAL" />
       <updated>1571399645589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Joker =&gt; hystrix熔断与降级">
+      <created>1571485190743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571485190743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RabbitmqApplicationTests - 2019.10.25 at 20h 32m 58s.xml">
+      <configuration name="RabbitmqApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqApplicationTests - 2019.10.25 at 20h 34m 25s.xml">
+      <configuration name="RabbitmqApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqApplicationTests_contextLoads - 2019.10.25 at 20h 35m 28s.xml">
+      <configuration name="RabbitmqApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqApplicationTests - 2019.10.25 at 20h 37m 48s.xml">
+      <configuration name="RabbitmqApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqApplicationTests - 2019.10.25 at 20h 38m 45s.xml">
+      <configuration name="RabbitmqApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqApplicationTests - 2019.10.25 at 20h 41m 32s.xml">
+      <configuration name="RabbitmqApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitmqApplicationTests - 2019.10.25 at 20h 42m 53s.xml">
+      <configuration name="RabbitmqApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloApplicationTests_hello - 2019.10.25 at 20h 55m 48s.xml">
+      <configuration name="HelloApplicationTests.hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloApplicationTests - 2019.10.25 at 20h 58m 37s.xml">
+      <configuration name="HelloApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloApplicationTests - 2019.10.25 at 20h 59m 28s.xml">
+      <configuration name="HelloApplicationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31398000" />
+    <option name="totallyTimeSpent" value="80867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -415,7 +539,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31600833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27234927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,14 +548,14 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2952183" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.20362474" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.09434968" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -446,223 +570,140 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Joker =&gt; euraka集群" />
     <MESSAGE value="Joker =&gt; ribbon负载均衡" />
-    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; ribbon负载均衡" />
+    <MESSAGE value="Joker =&gt; hystrix熔断与降级" />
+    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; hystrix熔断与降级" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/joker-eureka/src/main/java/com/example/jokereureka/jokereureka/JokerEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka2/src/main/java/com/example/jokereureka/jokereureka/JokerEurekaApplication.java" />
-    <entry file="file://$PROJECT_DIR$/joker-eureka2/src/test/java/com/example/jokereureka/jokereureka/JokerEurekaApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/joker-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka2/src/main/java/com/example/eureka2/Eureka2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka3/src/main/java/com/example/eureka3/Eureka3Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka3/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.0.RELEASE/spring-web-5.2.0.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="444" column="40" lean-forward="true" selection-start-line="444" selection-start-column="40" selection-end-line="444" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/Provider2Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/Provider3Application.java">
+    <entry file="file://$PROJECT_DIR$/joker-dashboard/src/main/java/com/example/dashboard/DashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="253">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider2/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/joker-hystrix/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="598">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/java/com/example/provider3/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/joker-provider2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="414">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider2/src/main/java/com/example/provider2/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/HystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/RandomRuleJoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#choose#0;class#RandomRuleJoker#0" />
-            <element signature="e#2392#2393#0" expanded="true" />
-            <element signature="e#2463#2464#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/ribbon/MySelfRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="14" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer2/src/main/java/com/example/consumerfeign/controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/JokerServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="58">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-provider3/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        <state relative-caret-position="276">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/service/impl/FeignHello.java">
+    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/JokerProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="161">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/service/IFeignHello.java">
+    <entry file="file://$PROJECT_DIR$/joker-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="506">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer2/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/joker-dashboard/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        <state relative-caret-position="378">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java">
+    <entry file="file://$PROJECT_DIR$/joker-dashboard/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.0.M3/spring-cloud-gateway-core-2.2.0.M3.jar!/org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="187" column="32" selection-start-line="187" selection-start-column="32" selection-end-line="187" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider3/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-zuul/src/main/java/com/example/zuul/ZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-zuul/src/test/java/com/example/zuul/ZuulApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -671,99 +712,297 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="713">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-service/src/main/java/com/example/jokerservice/service/Joker.java">
+    <entry file="file://$PROJECT_DIR$/joker-zuul/src/main/java/com/example/zuul/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="230">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/simple/Recv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/simple/send.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-service/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer2/src/main/java/com/example/consumerfeign/controller/FeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="552">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer2/src/main/java/com/example/consumerfeign/ConsumerFeignApplication.java">
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/send.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/JokerProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/HystrixApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="161">
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hystrix/src/main/java/com/example/hystrix/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/Recv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/util/ConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/RabbitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit/src/main/java/com/example/rabbit/RabbitApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbit/src/test/java/com/example/rabbit/RabbitApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider2/src/test/java/com/example/provider2/Provider2ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-provider3/src/test/java/com/example/provider3/Provider3ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/work/Recv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-service/src/test/java/com/example/jokerservice/JokerServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/test/java/com/rabbitmq/rabbitmq/RabbitmqApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitmqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/HelloRecv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/HelloSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/HelloApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/Recv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/Recv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/Recv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="80" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeDirect/Recv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/Recv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchangeTopic/Recv2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

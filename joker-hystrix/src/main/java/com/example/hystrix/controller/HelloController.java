@@ -23,6 +23,4 @@ public class HelloController {
         return "这里是Hystrix熔断机制、ID："+id+"数据过载!";
     }
 
-
-
 }
