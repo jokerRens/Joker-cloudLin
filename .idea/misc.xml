@@ -13,13 +13,17 @@
         <option value="$PROJECT_DIR$/joker-provider2/pom.xml" />
         <option value="$PROJECT_DIR$/joker-provider3/pom.xml" />
         <option value="$PROJECT_DIR$/joker-consumer2/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-service/pom.xml" />
         <option value="$PROJECT_DIR$/joker-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/joker-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/joker-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/joker-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/rabbit/pom.xml" />
         <option value="$PROJECT_DIR$/joker-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-elastisearch/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-sso2/pom.xml" />
       </list>
     </option>
   </component>

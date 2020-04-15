@@ -13,7 +13,7 @@ public class Recv {
         Connection connection = ConnectionUtils.getConnection();
         Channel channel = connection.createChannel();
         //声明队列
-        channel.queueDeclare(QUEUE_NAME, false, false, false, null)
+        channel.queueDeclare(QUEUE_NAME, false, false, false, null);
         //绑定队列到交换机
         channel.queueBind(QUEUE_NAME, EXCHANGE_NAME, "");
         //同一时刻服务器只会发一条消息给消费者

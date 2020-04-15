@@ -47,7 +47,7 @@ public class RandomRuleJoker extends AbstractLoadBalancerRule {
             }
 
 //            int index = chooseRandomInt(serverCount);
-//            server = upList.get(index);
+//            repository = upList.get(index);
 
                 //自定义模块
                 if (total<3){
@@ -64,7 +64,7 @@ public class RandomRuleJoker extends AbstractLoadBalancerRule {
 
             if (server == null) {
                 /*
-                 * The only time this should happen is if the server list were
+                 * The only time this should happen is if the repository list were
                  * somehow trimmed. This is a transient condition. Retry after
                  * yielding.
                  */
