@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/joker-redis/pom.xml" />
         <option value="$PROJECT_DIR$/joker-sso/pom.xml" />
         <option value="$PROJECT_DIR$/joker-sso2/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-jvm/pom.xml" />
       </list>
     </option>
   </component>

@@ -13,6 +13,12 @@ public class RibbonController {
     @Autowired
     private RestTemplate restTemplate;
 
+    @GetMapping("/getOne")
+    public String getOne(){
+        return "getOne";
+    }
+
+
     @GetMapping("/consumer")
     public String Hello(){
         return restTemplate.getForObject(REST_URL+"/provider", String.class);

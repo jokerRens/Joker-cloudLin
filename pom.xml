@@ -15,7 +15,7 @@
         <module>joker-provider</module>
         <module>joker-provider2</module>
         <module>joker-provider3</module>
-        <module>joker-service</module>
+        <!--<module>joker-service</module>-->
         <module>joker-consumer</module>
         <module>joker-consumer2</module>
     </modules>

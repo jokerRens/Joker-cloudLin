@@ -25,9 +25,10 @@ public class Book {
     private Double price;
 
     public Book() {
+
     }
 
-    public Book(Integer id, String name, String title, Double price) {
+    public Book(Integer id, String name, String title, Double price){
         this.id = id;
         this.name = name;
         this.title = title;

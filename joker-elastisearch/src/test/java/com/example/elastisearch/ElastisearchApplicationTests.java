@@ -1,6 +1,10 @@
 package com.example.elastisearch;
 
 import com.example.elastisearch.bean.Book;
+import com.example.elastisearch.bean.HotelES;
+import com.example.elastisearch.bean.Tarea;
+import com.example.elastisearch.repository.IHotelRepository;
+import com.example.elastisearch.repository.ITareaRepository;
 import com.example.elastisearch.repository.ITestRepository;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
@@ -27,8 +31,14 @@ class ElastisearchApplicationTests {
     @Autowired
     private ITestRepository testRepository;
 
+    @Autowired
+    private ITareaRepository tareaRepository;
+
+    @Autowired
+    private IHotelRepository hotelRepository;
+
     @Test
-    void contextLoads() {   //添加
+    void contextLoads(){   //添加
         Book book = new Book(1,"雨季不再来","三毛",34.00);
         testRepository.index(book);
     }
@@ -45,8 +55,38 @@ class ElastisearchApplicationTests {
 
     @Test
     void  query(){  //查找
+        System.out.println("======================酒店检索========================");
+        NativeSearchQueryBuilder queryBuilderHotel = new NativeSearchQueryBuilder();
+        queryBuilderHotel.withQuery(QueryBuilders.matchQuery("chinesename","都舍"));
+        Iterable<HotelES> searchH = hotelRepository.search(queryBuilderHotel.build());
+        searchH.forEach(s->{
+            System.out.println(s.toString());
+        });
+
+        System.out.println("======================城市模糊查询========================");
+
+        NativeSearchQueryBuilder queryBuilders = new NativeSearchQueryBuilder();
+        queryBuilders.withQuery(QueryBuilders.matchQuery("area_name","成都市"));
+
+        Iterable<Tarea> search = tareaRepository.search(queryBuilders.build());
+        search.forEach(s->{
+            System.out.println(s.toString());
+        });
+
+
+//        List<Tarea> name = tareaRepository.findAllByAreaNameLike("成都");
+//        name.forEach(s->{
+//            System.out.println(s.toString());
+//        });
+
+//        List<Tarea> allById = tareaRepository.findAllById(510100);
+//        allById.forEach(s->{
+//            System.out.println(s.toString());
+//        });
+
+
         System.out.println("======================姓名模糊查询========================");
-        List<Book> like = testRepository.findAllByNameLike("白夜行");  //姓名模糊查询
+        List<Book> like = testRepository.findAllByNameLike("夜行");  //姓名模糊查询
         like.forEach(s->{
             System.out.println(s.toString());
         });

@@ -1,7 +1,6 @@
 package com.example.jokerkafka.controller;
 
 import sun.misc.Launcher;
-import sun.misc.URLClassPath;
 
 import java.net.URL;
 
@@ -9,7 +8,6 @@ import java.net.URL;
  * JVM demo
  */
 public class JVMController {
-
 
     public static void main(String[] args) {
         //获取系统类加载器

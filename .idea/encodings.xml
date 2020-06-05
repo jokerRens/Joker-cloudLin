@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-consumer2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-dashboard" charset="UTF-8" />
@@ -10,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/joker-eureka2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-eureka3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-jvm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-provider2" charset="UTF-8" />
@@ -18,7 +18,6 @@
     <file url="file://$PROJECT_DIR$/joker-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-sso" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-sso2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/joker-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-swagger2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit" charset="UTF-8" />

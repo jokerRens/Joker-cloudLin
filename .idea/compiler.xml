@@ -14,6 +14,7 @@
         <module name="joker-eureka2" />
         <module name="joker-eureka3" />
         <module name="joker-hystrix" />
+        <module name="joker-jvm" />
         <module name="joker-kafka" />
         <module name="joker-provider" />
         <module name="joker-provider2" />
@@ -48,6 +49,7 @@
       <module name="joker-eureka2" options="-parameters" />
       <module name="joker-eureka3" options="-parameters" />
       <module name="joker-hystrix" options="-parameters" />
+      <module name="joker-jvm" options="-parameters" />
       <module name="joker-kafka" options="-parameters" />
       <module name="joker-provider" options="-parameters" />
       <module name="joker-provider2" options="-parameters" />
