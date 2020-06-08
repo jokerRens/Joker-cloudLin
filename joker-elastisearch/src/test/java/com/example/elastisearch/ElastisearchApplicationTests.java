@@ -37,6 +37,7 @@ class ElastisearchApplicationTests {
     @Autowired
     private IHotelRepository hotelRepository;
 
+
     @Test
     void contextLoads(){   //添加
         Book book = new Book(1,"雨季不再来","三毛",34.00);
