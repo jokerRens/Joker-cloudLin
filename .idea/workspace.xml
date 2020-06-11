@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/LocalVarGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/MyGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,11 +53,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/StringIntern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="598">
+              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/LocalVarGC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/MyGC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -78,6 +108,7 @@
       <find>provided</find>
       <find>scope</find>
       <find>decr</find>
+      <find>gc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/joker-kafka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/kafka/TestConsumer.java" />
-        <option value="$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/controller/TestController.java" />
         <option value="$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/JokerKafkaApplication.java" />
         <option value="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/server/ITestservice.java" />
         <option value="$PROJECT_DIR$/joker-elastisearch/src/main/resources/application.properties" />
@@ -137,6 +165,9 @@
         <option value="$PROJECT_DIR$/joker-elastisearch/src/test/java/com/example/elastisearch/ElastisearchApplicationTests.java" />
         <option value="$PROJECT_DIR$/joker-elastisearch/pom.xml" />
         <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/StringIntern.java" />
+        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" />
+        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/LocalVarGC.java" />
+        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/MyGC.java" />
       </list>
     </option>
   </component>
@@ -158,6 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,8 +247,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +256,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591749343584" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591870824310" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-eureka2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -260,9 +291,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringIntern">
-    <configuration name="BufferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.Controller.BufferTest" />
+  <component name="RunManager" selected="Application.MyGC">
+    <configuration name="MyGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joker.Controller.MyGC" />
+      <module name="joker-jvm" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintCommandLineFlags -XX:+UseParNewGC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joker.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringIntern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joker.Controller.StringIntern" />
       <module name="joker-jvm" />
       <extension name="coverage">
         <pattern>
@@ -274,21 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JVMController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.jokerkafka.controller.JVMController" />
-      <module name="joker-kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.jokerkafka.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringIntern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.Controller.StringIntern" />
+    <configuration name="SystemGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joker.Controller.SystemGC" />
       <module name="joker-jvm" />
       <extension name="coverage">
         <pattern>
@@ -486,9 +518,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JVMController" />
-      <item itemvalue="Application.BufferTest" />
+      <item itemvalue="Application.MyGC" />
       <item itemvalue="Application.StringIntern" />
+      <item itemvalue="Application.SystemGC" />
       <item itemvalue="JUnit.ElastisearchApplicationTests.query" />
       <item itemvalue="JUnit.ElastisearchApplicationTests" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
@@ -516,11 +548,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyGC" />
+        <item itemvalue="Application.SystemGC" />
         <item itemvalue="Application.StringIntern" />
-        <item itemvalue="Application.BufferTest" />
         <item itemvalue="JUnit.ElastisearchApplicationTests.query" />
         <item itemvalue="JUnit.ElastisearchApplicationTests" />
-        <item itemvalue="Application.JVMController" />
       </list>
     </recent_temporary>
   </component>
@@ -569,6 +601,9 @@
       <workItem from="1591442485778" duration="1957000" />
       <workItem from="1591578037678" duration="1354000" />
       <workItem from="1591702660840" duration="1463000" />
+      <workItem from="1591749318866" duration="89000" />
+      <workItem from="1591769222924" duration="6833000" />
+      <workItem from="1591843748092" duration="9693000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -626,7 +661,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591579350784</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Joker =&gt; JVM">
+      <created>1591749350418</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591749350418</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Joker =&gt; JVM">
+      <created>1591749379174</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591749379174</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -662,13 +711,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195816000" />
+    <option name="totallyTimeSpent" value="212431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -678,7 +727,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15696466" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22972973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -753,22 +802,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; JVM" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/joker-swagger/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/joker-swagger/src/main/java/com/joker/swagger/jokerswagger/JokerSwaggerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/joker-swagger2/src/test/java/com/joker/jokerswagger2/JokerSwagger2ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/1.0.1.RELEASE/spring-hateoas-1.0.1.RELEASE.jar!/org/springframework/hateoas/config/HateoasConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joker-swagger/pom.xml" />
     <entry file="file://$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/JokerSwagger2Application.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1166,6 +1199,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="993" column="5" lean-forward="true" selection-start-line="993" selection-start-column="5" selection-end-line="993" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/BufferTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1178,8 +1218,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/StringIntern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="598">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/LocalVarGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/MyGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
