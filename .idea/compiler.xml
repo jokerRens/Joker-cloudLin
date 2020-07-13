@@ -13,6 +13,7 @@
         <module name="joker-eureka" />
         <module name="joker-eureka2" />
         <module name="joker-eureka3" />
+        <module name="joker-hadoop" />
         <module name="joker-hystrix" />
         <module name="joker-jvm" />
         <module name="joker-kafka" />
@@ -48,6 +49,7 @@
       <module name="joker-eureka (1)" options="-parameters" />
       <module name="joker-eureka2" options="-parameters" />
       <module name="joker-eureka3" options="-parameters" />
+      <module name="joker-hadoop" options="-parameters" />
       <module name="joker-hystrix" options="-parameters" />
       <module name="joker-jvm" options="-parameters" />
       <module name="joker-kafka" options="-parameters" />

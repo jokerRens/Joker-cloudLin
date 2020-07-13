@@ -58,7 +58,16 @@ class ElastisearchApplicationTests {
     void  query(){  //查找
         System.out.println("======================酒店检索========================");
         NativeSearchQueryBuilder queryBuilderHotel = new NativeSearchQueryBuilder();
-        queryBuilderHotel.withQuery(QueryBuilders.matchQuery("chinesename","都舍"));
+//        queryBuilderHotel.withQuery(
+//
+//                QueryBuilders.matchQuery("chinesename","燎原"));
+
+        queryBuilderHotel.withQuery(QueryBuilders.boolQuery()
+                .should(QueryBuilders.matchPhraseQuery("chinesename", "百草路"))
+                .should(QueryBuilders.matchPhraseQuery("englishname", "百草路"))
+                .should(QueryBuilders.matchPhraseQuery("address", "百草路"))
+        );
+        queryBuilderHotel.withPageable(PageRequest.of(0, 60));
         Iterable<HotelES> searchH = hotelRepository.search(queryBuilderHotel.build());
         searchH.forEach(s->{
             System.out.println(s.toString());

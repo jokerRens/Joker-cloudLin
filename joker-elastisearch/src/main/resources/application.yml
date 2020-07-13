@@ -3,8 +3,8 @@ spring:
     elasticsearch:
       repositories:
         enabled: true
-      cluster-nodes: 127.0.0.1:9300
+      cluster-nodes: 39.100.107.127:9300
       cluster-name: elasticsearch
   elasticsearch:
     jest:
-      uris: http://127.0.0.1:9200
+      uris: http://39.100.107.127:9200

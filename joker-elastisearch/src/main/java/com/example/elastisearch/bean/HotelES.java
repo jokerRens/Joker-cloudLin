@@ -7,7 +7,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.math.BigDecimal;
 
-@Document(indexName = "guide_hotel", type = "_doc", shards = 1, replicas = 0)
+@Document(indexName = "guide_hotel", type = "doc", shards = 1, replicas = 0)
 @JsonIgnoreProperties
 public class HotelES {
 
@@ -36,11 +36,6 @@ public class HotelES {
     @JsonProperty("englishname")
     private String englishname;
 
-    /**
-     * 星级
-     */
-    @JsonProperty("star")
-    private Integer star;
 
     /**
      * 酒店地址
@@ -55,22 +50,122 @@ public class HotelES {
     private BigDecimal price;
 
     /**
-     * 1.国内 ， 2.国外
-     */
-    @JsonProperty("type")
-    private Integer type;
-
-    /**
      * 评分
      */
     @JsonProperty("grade")
     private String grade;
 
+
+
     /**
-     * 起价排序
+     * 酒店ID
      */
-    @JsonProperty("pricehot")
-    private Integer pricehot;
+//    @TableField("hotelId")
+    private Long hotelId;
+
+    /**
+     * 中文名
+     */
+//    @TableField("chineseName")
+    private String chineseName;
+
+    /**
+     * 英文名
+     */
+//    @TableField("englishName")
+    private String englishName;
+
+
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Long getHotelid() {
+        return hotelid;
+    }
+
+    public void setHotelid(Long hotelid) {
+        this.hotelid = hotelid;
+        this.hotelId = hotelid;
+    }
+
+    public String getChinesename() {
+        return chinesename;
+    }
+
+    public void setChinesename(String chinesename) {
+        this.chinesename = chinesename;
+        this.chineseName = chinesename;
+    }
+
+    public String getEnglishname() {
+        return englishname;
+    }
+
+    public void setEnglishname(String englishname) {
+        this.englishname = englishname;
+        this.englishName = englishname;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
+        this.price = price;
+    }
+
+    public String getGrade() {
+        return grade;
+    }
+
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+
+
+
+
+
+
+
+    public Long getHotelId() {
+        return hotelId;
+    }
+
+    public void setHotelId(Long hotelId) {
+        this.hotelId = hotelId;
+    }
+
+    public String getChineseName() {
+        return chineseName;
+    }
+
+    public void setChineseName(String chineseName) {
+        this.chineseName = chineseName;
+    }
+
+    public String getEnglishName() {
+        return englishName;
+    }
+
+    public void setEnglishName(String englishName) {
+        this.englishName = englishName;
+    }
+
 
     @Override
     public String toString() {
@@ -79,12 +174,12 @@ public class HotelES {
                 ", hotelid=" + hotelid +
                 ", chinesename='" + chinesename + '\'' +
                 ", englishname='" + englishname + '\'' +
-                ", star=" + star +
                 ", address='" + address + '\'' +
                 ", price=" + price +
-                ", type=" + type +
                 ", grade='" + grade + '\'' +
-                ", pricehot=" + pricehot +
+                ", hotelId=" + hotelId +
+                ", chineseName='" + chineseName + '\'' +
+                ", englishName='" + englishName + '\'' +
                 '}';
     }
 }
