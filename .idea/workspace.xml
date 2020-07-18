@@ -2,30 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/HDFSClient/HDFSClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/HDFSClient/HDFSIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerHadoopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/test/java/com/hadoop/jokerhadoop/JokerHadoopApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Compress/TestCompress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderGroupingComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerInputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerRecordReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FRecordWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterOutputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/ProvincePartitioner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-elastisearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-elastisearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/bean/HotelES.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/bean/HotelES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/repository/IHotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/repository/IHotelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-elastisearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-elastisearch/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-elastisearch/src/test/java/com/example/elastisearch/ElastisearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-elastisearch/src/test/java/com/example/elastisearch/ElastisearchApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,19 +82,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-hadoop/pom.xml">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/HDFSClient/HDFSClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="41" column="123" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="123" />
+            <state relative-caret-position="759">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,34 +94,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/HDFSClient/HDFSIO.java">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2599">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReduce.java">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Compress/TestCompress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountCombiner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="283">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +163,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.5/hadoop-mapreduce-client-core-2.7.5.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="1058">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="49" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +220,15 @@
       <find>gc</find>
       <find>成都市</find>
       <find>文件上传</find>
+      <find>number of splits</find>
+      <find>number</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Joker\jokerLin\joker-hadoop\src\main\java\com\hadoop\jokerhadoop</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,47 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/joker-swagger/src/main/java/com/joker/swagger/jokerswagger/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-swagger/src/test/java/com/joker/swagger/jokerswagger/JokerSwaggerApplicationTests.java" />
-        <option value="$PROJECT_DIR$/joker-swagger2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-swagger/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-swagger/src/main/java/com/joker/swagger/jokerswagger/JokerSwaggerApplication.java" />
-        <option value="$PROJECT_DIR$/joker-swagger2/src/test/java/com/joker/jokerswagger2/JokerSwagger2ApplicationTests.java" />
-        <option value="$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/JokerSwagger2Application.java" />
-        <option value="$PROJECT_DIR$/joker-swagger2/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/utils/Swagger2.java" />
-        <option value="$PROJECT_DIR$/joker-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-redis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-redis/src/test/java/com/joker/jokerredis/JokerRedisApplicationTests.java" />
-        <option value="$PROJECT_DIR$/joker-sso/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-sso/src/main/java/com/joker/jokersso/JokerSsoApplication.java" />
-        <option value="$PROJECT_DIR$/joker-sso/src/main/java/com/joker/jokersso/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-sso/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-sso2/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-sso2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/joker-sso2/src/main/java/com/joker/jokersso2/config/WebSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/joker-sso2/src/main/java/com/joker/jokersso2/JokerSso2Application.java" />
-        <option value="$PROJECT_DIR$/joker-sso/src/main/java/com/joker/jokersso/config/AuthorizationServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/joker-sso/src/main/java/com/joker/jokersso/config/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/joker-sso2/src/main/java/com/joker/jokersso2/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/controller/JVMController.java" />
-        <option value="$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/repository/ITestRepository.java" />
-        <option value="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/bean/Book.java" />
-        <option value="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/bean/Tarea.java" />
-        <option value="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/repository/ITareaRepository.java" />
-        <option value="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/ElastisearchApplication.java" />
-        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/BufferTest.java" />
-        <option value="$PROJECT_DIR$/joker-elastisearch/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/StringIntern.java" />
-        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" />
-        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/LocalVarGC.java" />
-        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/MyGC.java" />
         <option value="$PROJECT_DIR$/joker-elastisearch/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/repository/IHotelRepository.java" />
         <option value="$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/bean/HotelES.java" />
@@ -218,8 +243,49 @@
         <option value="$PROJECT_DIR$/joker-hadoop/pom.xml" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/HDFSClient/HDFSClient.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/HDFSClient/HDFSIO.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReduce.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReducer.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountReducer.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowBean.java" />
+        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextReduce.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineReduce.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerInputFormat.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerRecordReader.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerReduce.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/ProvincePartitioner.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/FlowBean.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortReduce.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountCombiner.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderBean.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderReducer.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderGroupingComparator.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterOutputFormat.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FRecordWriter.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterReducer.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableBean.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableReducer.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/DistributedCacheDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheDriver.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheMapper.java" />
+        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Compress/TestCompress.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java" />
       </list>
     </option>
@@ -243,6 +309,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,7 +366,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,7 +375,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594451323110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595050547369" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-eureka2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -345,83 +411,68 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HDFSIO.getFileToIO">
-    <configuration name="HDFSClient.testCopyToLocalFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestCompress">
+    <configuration name="DistributedCacheDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Cache.DistributedCacheDriver" />
       <module name="joker-hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.HDFSClient.*" />
+          <option name="PATTERN" value="com.hadoop.jokerhadoop.Cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hadoop.jokerhadoop.HDFSClient" />
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.HDFSClient.HDFSClient" />
-      <option name="METHOD_NAME" value="testCopyToLocalFile" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSClient.testFileInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.OutputFormat.FilterDriver" />
       <module name="joker-hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.HDFSClient.*" />
+          <option name="PATTERN" value="com.hadoop.jokerhadoop.OutputFormat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hadoop.jokerhadoop.HDFSClient" />
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.HDFSClient.HDFSClient" />
-      <option name="METHOD_NAME" value="testFileInfo" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSClient.testFileState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Group.OrderDriver" />
       <module name="joker-hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.HDFSClient.*" />
+          <option name="PATTERN" value="com.hadoop.jokerhadoop.Group.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hadoop.jokerhadoop.HDFSClient" />
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.HDFSClient.HDFSClient" />
-      <option name="METHOD_NAME" value="testFileState" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSIO.getFileToIO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TableDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Table.TableDriver" />
       <module name="joker-hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.HDFSClient.*" />
+          <option name="PATTERN" value="com.hadoop.jokerhadoop.Cache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hadoop.jokerhadoop.HDFSClient" />
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.HDFSClient.HDFSIO" />
-      <option name="METHOD_NAME" value="getFileToIO" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSIO.putFileToIO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Compress.TestCompress" />
       <module name="joker-hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.HDFSClient.*" />
+          <option name="PATTERN" value="com.hadoop.jokerhadoop.Compress.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hadoop.jokerhadoop.HDFSClient" />
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.HDFSClient.HDFSIO" />
-      <option name="METHOD_NAME" value="putFileToIO" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -588,11 +639,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HDFSClient.testCopyToLocalFile" />
-      <item itemvalue="JUnit.HDFSClient.testFileInfo" />
-      <item itemvalue="JUnit.HDFSClient.testFileState" />
-      <item itemvalue="JUnit.HDFSIO.putFileToIO" />
-      <item itemvalue="JUnit.HDFSIO.getFileToIO" />
+      <item itemvalue="Application.OrderDriver" />
+      <item itemvalue="Application.FilterDriver" />
+      <item itemvalue="Application.TableDriver" />
+      <item itemvalue="Application.DistributedCacheDriver" />
+      <item itemvalue="Application.TestCompress" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.ConsumerFeignApplication" />
       <item itemvalue="Spring Boot.DashboardApplication" />
@@ -619,11 +670,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HDFSIO.getFileToIO" />
-        <item itemvalue="JUnit.HDFSIO.putFileToIO" />
-        <item itemvalue="JUnit.HDFSClient.testFileState" />
-        <item itemvalue="JUnit.HDFSClient.testFileInfo" />
-        <item itemvalue="JUnit.HDFSClient.testCopyToLocalFile" />
+        <item itemvalue="Application.TestCompress" />
+        <item itemvalue="Application.DistributedCacheDriver" />
+        <item itemvalue="Application.TableDriver" />
+        <item itemvalue="Application.FilterDriver" />
+        <item itemvalue="Application.OrderDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -680,7 +731,14 @@
       <workItem from="1593997452061" duration="1197000" />
       <workItem from="1594091095157" duration="14719000" />
       <workItem from="1594438646914" duration="5598000" />
-      <workItem from="1594605994305" duration="1790000" />
+      <workItem from="1594605994305" duration="23346000" />
+      <workItem from="1594691111660" duration="17806000" />
+      <workItem from="1594783510604" duration="18783000" />
+      <workItem from="1594859642739" duration="4673000" />
+      <workItem from="1594869999488" duration="15093000" />
+      <workItem from="1594956998596" duration="15540000" />
+      <workItem from="1595038607648" duration="3274000" />
+      <workItem from="1595042823479" duration="4193000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -759,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591870933943</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Joker =&gt; Hadoop">
+      <created>1594607807577</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594607807577</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -795,12 +860,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241709000" />
+    <option name="totallyTimeSpent" value="342627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -810,8 +876,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17151767" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28690228" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34511435" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -882,369 +948,95 @@
     <MESSAGE value="Joker =&gt; RabbitMQ" />
     <MESSAGE value="Joker =&gt; 提交" />
     <MESSAGE value="Joker =&gt; JVM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; JVM" />
+    <MESSAGE value="Joker =&gt; Hadoop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; Hadoop" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.5/hadoop-mapreduce-client-core-2.7.5.jar!/org/apache/hadoop/mapreduce/Mapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="176">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.5/hadoop-mapreduce-client-core-2.7.5.jar!/org/apache/hadoop/mapred/MapTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.5/hadoop-common-2.7.5.jar!/org/apache/hadoop/io/Text.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="139" column="33" selection-start-line="139" selection-start-column="27" selection-end-line="139" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.5/hadoop-mapreduce-client-common-2.7.5.jar!/org/apache/hadoop/mapred/LocalJobRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16491">
+          <caret line="788" column="5" selection-start-line="788" selection-start-column="5" selection-end-line="788" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#619#643#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/test/java/com/joker/jokerredis/JokerRedisApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java">
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1399#1429#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-            <element signature="e#3635#3636#0" expanded="true" />
-            <element signature="e#3699#3700#0" expanded="true" />
-            <element signature="e#3858#3859#0" expanded="true" />
-            <element signature="e#3920#3921#0" expanded="true" />
-            <element signature="e#6084#6085#0" expanded="true" />
-            <element signature="e#6144#6145#0" expanded="true" />
-            <element signature="e#6379#6380#0" expanded="true" />
-            <element signature="e#6454#6455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso2/src/main/java/com/joker/jokersso2/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
+          <caret line="8" selection-start-line="8" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso2/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.5/hadoop-common-2.7.5.jar!/org/apache/hadoop/conf/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso2/src/main/java/com/joker/jokersso2/config/WebSecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso/src/main/java/com/joker/jokersso/config/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso2/src/main/java/com/joker/jokersso2/JokerSso2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso/src/main/java/com/joker/jokersso/config/AuthorizationServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso/src/main/java/com/joker/jokersso/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/controller/JVMController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka/src/main/java/com/example/jokereureka/jokereureka/JokerEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/controller/RibbonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/java/com/example/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/java/com/example/jokerprovider/JokerProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-sso/src/main/java/com/joker/jokersso/JokerSsoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/repository/ITestRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/bean/Tarea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/ElastisearchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/bean/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/repository/ITareaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/com/sun/org/apache/xpath/internal/operations/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="993" column="5" lean-forward="true" selection-start-line="993" selection-start-column="5" selection-end-line="993" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/bean/HotelES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/test/java/com/example/elastisearch/ElastisearchApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-elastisearch/src/main/java/com/example/elastisearch/repository/IHotelRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="138" column="69" lean-forward="true" selection-start-line="138" selection-start-column="69" selection-end-line="138" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/MyGC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/LocalVarGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="460">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/StringIntern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="621">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,34 +1050,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.5/hadoop-mapreduce-client-core-2.7.5.jar!/org/apache/hadoop/mapreduce/Reducer.class">
+    <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/LocalVarGC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="230">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/pom.xml">
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/HDFSClient/HDFSClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="41" column="123" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="123" />
+        <state relative-caret-position="506">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/HDFSClient/HDFSIO.java">
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2599">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="299">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerRecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/ProvincePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/FlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1556#1557#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderGroupingComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1294,35 +1253,216 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="483">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReduce.java">
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.5/hadoop-mapreduce-client-core-2.7.5.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="108">
+          <caret line="19" column="109" lean-forward="true" selection-start-line="19" selection-start-column="109" selection-end-line="19" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterOutputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FRecordWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="52" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Compress/TestCompress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountCombiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="283">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1407,6 +1547,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

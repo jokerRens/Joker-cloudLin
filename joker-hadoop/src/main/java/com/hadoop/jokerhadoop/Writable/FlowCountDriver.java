@@ -1,57 +1,48 @@
-package com.hadoop.jokerhadoop.MapReduce;
+package com.hadoop.jokerhadoop.Writable;
 
-import org.apache.avro.file.BZip2Codec;
+import com.hadoop.jokerhadoop.MapReduce.WordCountDriver;
+import com.hadoop.jokerhadoop.MapReduce.WordCountMapper;
+import com.hadoop.jokerhadoop.MapReduce.WordCountReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.compress.CompressionCodec;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
 import java.io.IOException;
 
-/**
- * 相当于一个yarn集群的客户端，
- * 需要在此封装我们的mr程序相关运行参数，指定jar包
- * 最后提交给yarn
- */
-public class WordCountDriver {
+public class FlowCountDriver {
+
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
-        args = new String[]{"D:\\Joker\\hadoop","D:\\Joker\\Out4"};
+        args = new String[]{"D:\\Joker\\inputFlow","D:\\Joker\\Out7"};
 
         Configuration conf = new Configuration();
-        //开启map端输出压缩
-        conf.setBoolean("mapreduce.map.output.compress",true);
-        //设置map端输出压缩方式
-        conf.setClass("mapreduce.map.output.compress.codec", BZip2Codec.class, CompressionCodec.class);
-
         //1.获取job对象 配置提交到yarn上运行,windows和Linux变量不一致
         Job job = Job.getInstance(conf);
 
         //2.设置jar储存位置
-        job.setJarByClass(WordCountDriver.class);
+        job.setJarByClass(FlowCountDriver.class);
 
         //3.关联Map和Reduce类
-        job.setMapperClass(WordCountMapper.class);
-        job.setReducerClass(WordCountReducer.class);
+        job.setMapperClass(FlowCountMapper.class);
+        job.setReducerClass(FlowCountReducer.class);
 
         //4.设置Mapper阶段输出数据的key和value类型
         job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(IntWritable.class);
+        job.setMapOutputValueClass(FlowBean.class);
 
         //5.设置最终数据输出的key和value类型
         job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(IntWritable.class);
+        job.setOutputValueClass(FlowBean.class);
 
-        //如果不设置，默认是TextInputFormat.class
-//        job.setInputFormatClass(CombineTextInputFormat.class);
-        //设置储存切片最大值为4M
-//        CombineTextInputFormat.setMaxInputSplitSize(job,4194304);
+        //自定义Partition
+        job.setPartitionerClass(ProvincePartitioner.class);
+        job.setNumReduceTasks(5);
 
-        job.setCombinerClass(WordCountCombiner.class);
 
         //6.设置输入路径和输出路径
         FileInputFormat.setInputPaths(job,new Path(args[0]));
@@ -60,6 +51,7 @@ public class WordCountDriver {
         //7.提交job
         boolean b = job.waitForCompletion(true);
         System.exit(b ? 0:1);
+
     }
 
 }

@@ -1,7 +1,5 @@
 package com.joker.Controller;
 
-import java.util.ArrayList;
-
 public class SystemGC {
 
     public static void main(String[] args) {
@@ -16,7 +14,5 @@ public class SystemGC {
         super.finalize();
         System.out.println("SystemGC 重写的finalize()");
     }
-
-
 
 }
