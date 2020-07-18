@@ -1,50 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Compress/TestCompress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderGroupingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Group/OrderReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerInputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerRecordReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountCombiner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FRecordWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterOutputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/OutputFormat/FilterReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/FlowBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/ProvincePartitioner.java" afterDir="false" />
+    <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="Joker =&gt; Hadoop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -153,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="398">
+              <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -375,7 +333,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595050547369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595062904900" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-eureka2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -738,7 +696,7 @@
       <workItem from="1594869999488" duration="15093000" />
       <workItem from="1594956998596" duration="15540000" />
       <workItem from="1595038607648" duration="3274000" />
-      <workItem from="1595042823479" duration="4193000" />
+      <workItem from="1595042823479" duration="8017000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -824,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594607807577</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Joker =&gt; Hadoop">
+      <created>1595050630769</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595050630769</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -860,7 +825,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342627000" />
+    <option name="totallyTimeSpent" value="346451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -876,7 +841,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28690228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28690228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34511435" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1461,8 +1426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="398">
+          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
