@@ -19,9 +19,7 @@ import java.io.IOException;
 public class WordCountDriver {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
-
         args = new String[]{"D:\\Joker\\hadoop","D:\\Joker\\Out4"};
-
         Configuration conf = new Configuration();
         //开启map端输出压缩
         conf.setBoolean("mapreduce.map.output.compress",true);
