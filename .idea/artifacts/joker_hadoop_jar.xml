@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="joker-hadoop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/joker_hadoop_jar</output-path>
+    <root id="archive" name="joker-hadoop.jar">
+      <element id="module-output" name="joker-hadoop" />
+    </root>
+  </artifact>
+</component>

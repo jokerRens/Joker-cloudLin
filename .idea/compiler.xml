@@ -25,6 +25,7 @@
         <module name="joker-sso" />
         <module name="joker-sso2" />
         <module name="joker-swagger2" />
+        <module name="joker-zookeeper" />
         <module name="joker-zuul" />
         <module name="jokerLin" />
         <module name="rabbit" />
@@ -63,6 +64,7 @@
       <module name="joker-sso2" options="-parameters" />
       <module name="joker-swagger" options="-parameters" />
       <module name="joker-swagger2" options="-parameters" />
+      <module name="joker-zookeeper" options="-parameters" />
       <module name="joker-zuul" options="-parameters" />
       <module name="rabbit" options="-parameters" />
       <module name="swagger2" options="-parameters" />
