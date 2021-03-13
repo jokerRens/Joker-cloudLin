@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/joker-jvm/pom.xml" />
         <option value="$PROJECT_DIR$/joker-hadoop/pom.xml" />
         <option value="$PROJECT_DIR$/joker-zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-synchdetail/pom.xml" />
       </list>
     </option>
   </component>

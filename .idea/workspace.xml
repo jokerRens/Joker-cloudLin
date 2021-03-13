@@ -7,29 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/joker_hadoop_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hive/joker/MyUDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hive/joker/UDF/MyUDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hive/joker/UDTF/MyUDTF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/JokerZookeeperApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/TestZookeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-zookeeper/src/test/java/com/joker/zookeeper/JokerZookeeperApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/SynchdetailApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/test/java/com/joker/synchdetail/synchdetail/SynchdetailApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-hadoop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-hadoop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,6 +52,7 @@
     <ignored path="$PROJECT_DIR$/joker-jvm/target/" />
     <ignored path="$PROJECT_DIR$/joker-hadoop/target/" />
     <ignored path="$PROJECT_DIR$/joker-zookeeper/target/" />
+    <ignored path="$PROJECT_DIR$/joker-synchdetail/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,16 +76,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-zookeeper/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/JokerZookeeperApplication.java">
+        <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/SynchdetailApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -99,38 +84,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/TestZookeeper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="14" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java">
+        <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="230">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
+              <folding>
+                <element signature="e#4725#4726#0" expanded="true" />
+                <element signature="e#4793#4794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-synchdetail/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -174,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountReducer.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountMapper.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowBean.java" />
         <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextMapper.java" />
@@ -225,22 +215,14 @@
         <option value="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/TestZookeeper.java" />
         <option value="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeServer.java" />
         <option value="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java" />
+        <option value="$PROJECT_DIR$/joker-synchdetail/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="joker-hadoop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="joker-hadoop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -259,7 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,60 +252,25 @@
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jokersso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-zookeeper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -331,27 +278,27 @@
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="synchdetail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="synchdetail" type="462c0819:PsiDirectoryNode" />
+              <item name="volatiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,7 +308,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614217027585" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615629618812" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-eureka2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -397,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCompress">
+  <component name="RunManager" selected="Application.Volatiles">
     <configuration name="DistributedCacheDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Cache.DistributedCacheDriver" />
       <module name="joker-hadoop" />
@@ -424,19 +371,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Group.OrderDriver" />
-      <module name="joker-hadoop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.Group.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TableDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Table.TableDriver" />
       <module name="joker-hadoop" />
@@ -456,6 +390,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hadoop.jokerhadoop.Compress.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Volatiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joker.synchdetail.synchdetail.volatiles.Volatiles" />
+      <module name="joker-synchdetail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joker.synchdetail.synchdetail.volatiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -624,6 +571,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SynchdetailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-synchdetail" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.synchdetail.synchdetail.SynchdetailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-zuul" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.ZuulApplication" />
@@ -632,7 +586,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OrderDriver" />
       <item itemvalue="Application.FilterDriver" />
       <item itemvalue="Application.TableDriver" />
       <item itemvalue="Application.DistributedCacheDriver" />
@@ -661,14 +614,16 @@
       <item itemvalue="Spring Boot.JokerJvmApplication" />
       <item itemvalue="Spring Boot.JokerHadoopApplication" />
       <item itemvalue="Spring Boot.JokerZookeeperApplication" />
+      <item itemvalue="Spring Boot.SynchdetailApplication" />
+      <item itemvalue="Application.Volatiles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Volatiles" />
         <item itemvalue="Application.TestCompress" />
         <item itemvalue="Application.DistributedCacheDriver" />
         <item itemvalue="Application.TableDriver" />
         <item itemvalue="Application.FilterDriver" />
-        <item itemvalue="Application.OrderDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -740,7 +695,9 @@
       <workItem from="1611109249123" duration="9947000" />
       <workItem from="1611305284655" duration="1949000" />
       <workItem from="1611711309304" duration="28000" />
-      <workItem from="1614127856199" duration="5921000" />
+      <workItem from="1614127856199" duration="6434000" />
+      <workItem from="1614740612848" duration="495000" />
+      <workItem from="1615601799938" duration="4276000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -854,7 +811,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595385752290</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Joker =&gt; Zookeeper">
+      <created>1614246679202</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614246679202</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -890,12 +854,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="376857000" />
+    <option name="totallyTimeSpent" value="382141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -905,7 +869,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4137214" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53846157" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34511435" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -978,56 +942,10 @@
     <MESSAGE value="Joker =&gt; 提交" />
     <MESSAGE value="Joker =&gt; JVM" />
     <MESSAGE value="Joker =&gt; Hadoop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; Hadoop" />
+    <MESSAGE value="Joker =&gt; Zookeeper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; Zookeeper" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/BufferTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/LocalVarGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerInputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1462,10 +1380,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-zookeeper/pom.xml">
+    <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="460">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/TestZookeeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1476,30 +1417,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/TestZookeeper.java">
+    <entry file="file://$PROJECT_DIR$/joker-zookeeper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="782">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4725#4726#0" expanded="true" />
+            <element signature="e#4793#4794#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeServer.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="94" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java">
+    <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/SynchdetailApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-synchdetail/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

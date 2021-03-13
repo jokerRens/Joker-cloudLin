@@ -13,18 +13,13 @@ public class DistributeClient {
 
 
     public static void main(String[] args) throws IOException, KeeperException, InterruptedException {
-
         DistributeClient client = new DistributeClient();
-
         //1.获取zookeeper集群连接
             client.getConnect();
         //2.注册监听
             client.getChlidren();
         //3.业务逻辑处理
             client.business();
-
-
-
     }
 
     private void business() throws InterruptedException {
