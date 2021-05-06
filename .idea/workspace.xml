@@ -7,22 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/SynchdetailApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/test/java/com/joker/synchdetail/synchdetail/SynchdetailApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/JedisPoolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/SecKill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/Seckill_ByScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/reference/PhantomReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/HelloVolatile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-redis/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,19 +71,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/SynchdetailApplication.java">
+        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="458">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,13 +83,90 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/SecKill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
+            <state relative-caret-position="444">
+              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
               <folding>
-                <element signature="e#4725#4726#0" expanded="true" />
-                <element signature="e#4793#4794#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/Seckill_ByScript.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/JedisPoolUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="23" column="58" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-redis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
+                <element signature="e#2194#2195#0" expanded="true" />
+                <element signature="e#4133#4134#0" expanded="true" />
+                <element signature="e#4205#4206#0" expanded="true" />
+                <element signature="e#4365#4366#0" expanded="true" />
+                <element signature="e#4435#4436#0" expanded="true" />
+                <element signature="e#6735#6736#0" expanded="true" />
+                <element signature="e#6803#6804#0" expanded="true" />
+                <element signature="e#7015#7016#0" expanded="true" />
+                <element signature="e#7090#7091#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="5980">
               <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="94" />
             </state>
           </provider>
@@ -121,7 +184,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/joker-synchdetail/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="690">
               <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
             </state>
           </provider>
@@ -152,6 +215,7 @@
       <find>number of splits</find>
       <find>number</find>
       <find>set</find>
+      <find>redisUtil</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -166,16 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowBean.java" />
-        <option value="$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/Controller/SystemGC.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextMapper.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextReduce.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextDriver.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineReduce.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineMapper.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Nline/NlineDriver.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerInputFormat.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerRecordReader.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerMapper.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerReduce.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerDriver.java" />
@@ -217,6 +271,16 @@
         <option value="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java" />
         <option value="$PROJECT_DIR$/joker-synchdetail/pom.xml" />
         <option value="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java" />
+        <option value="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/HelloVolatile.java" />
+        <option value="$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/reference/PhantomReference.java" />
+        <option value="$PROJECT_DIR$/joker-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-redis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/JedisPoolUtil.java" />
+        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/SecKill.java" />
+        <option value="$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/Seckill_ByScript.java" />
       </list>
     </option>
   </component>
@@ -230,8 +294,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="241" />
-    <option name="y" value="52" />
+    <option name="x" value="446" />
     <option name="width" value="1482" />
     <option name="height" value="656" />
   </component>
@@ -252,47 +315,65 @@
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="synchdetail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-synchdetail" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="synchdetail" type="462c0819:PsiDirectoryNode" />
-              <item name="volatiles" type="462c0819:PsiDirectoryNode" />
+              <item name="jokerredis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jokerredis" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jokerredis" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +389,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615629618812" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619253599632" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-eureka2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -344,13 +425,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Volatiles">
-    <configuration name="DistributedCacheDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Cache.DistributedCacheDriver" />
-      <module name="joker-hadoop" />
+  <component name="RunManager" selected="Application.SecKill">
+    <configuration name="HelloController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerredis.controller.HelloController" />
+      <module name="joker-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.Cache.*" />
+          <option name="PATTERN" value="com.joker.jokerredis.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,12 +439,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.OutputFormat.FilterDriver" />
-      <module name="joker-hadoop" />
+    <configuration name="SecKill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerredis.controller.SecKill" />
+      <module name="joker-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.OutputFormat.*" />
+          <option name="PATTERN" value="com.joker.jokerredis.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,41 +452,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Table.TableDriver" />
-      <module name="joker-hadoop" />
+    <configuration name="HelloController.demo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.Cache.*" />
+          <option name="PATTERN" value="com.joker.jokerredis.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.joker.jokerredis.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerredis.controller.HelloController" />
+      <option name="METHOD_NAME" value="demo3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hadoop.jokerhadoop.Compress.TestCompress" />
-      <module name="joker-hadoop" />
+    <configuration name="HelloController.demo4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hadoop.jokerhadoop.Compress.*" />
+          <option name="PATTERN" value="com.joker.jokerredis.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.joker.jokerredis.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerredis.controller.HelloController" />
+      <option name="METHOD_NAME" value="demo4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Volatiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.synchdetail.synchdetail.volatiles.Volatiles" />
-      <module name="joker-synchdetail" />
+    <configuration name="HelloController.demo5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joker.synchdetail.synchdetail.volatiles.*" />
+          <option name="PATTERN" value="com.joker.jokerredis.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.joker.jokerredis.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerredis.controller.HelloController" />
+      <option name="METHOD_NAME" value="demo5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -586,10 +676,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FilterDriver" />
-      <item itemvalue="Application.TableDriver" />
-      <item itemvalue="Application.DistributedCacheDriver" />
-      <item itemvalue="Application.TestCompress" />
+      <item itemvalue="Application.HelloController" />
+      <item itemvalue="Application.SecKill" />
+      <item itemvalue="JUnit.HelloController.demo3" />
+      <item itemvalue="JUnit.HelloController.demo4" />
+      <item itemvalue="JUnit.HelloController.demo5" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.ConsumerFeignApplication" />
       <item itemvalue="Spring Boot.DashboardApplication" />
@@ -615,15 +706,14 @@
       <item itemvalue="Spring Boot.JokerHadoopApplication" />
       <item itemvalue="Spring Boot.JokerZookeeperApplication" />
       <item itemvalue="Spring Boot.SynchdetailApplication" />
-      <item itemvalue="Application.Volatiles" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Volatiles" />
-        <item itemvalue="Application.TestCompress" />
-        <item itemvalue="Application.DistributedCacheDriver" />
-        <item itemvalue="Application.TableDriver" />
-        <item itemvalue="Application.FilterDriver" />
+        <item itemvalue="Application.SecKill" />
+        <item itemvalue="Application.HelloController" />
+        <item itemvalue="JUnit.HelloController.demo5" />
+        <item itemvalue="JUnit.HelloController.demo4" />
+        <item itemvalue="JUnit.HelloController.demo3" />
       </list>
     </recent_temporary>
   </component>
@@ -697,7 +787,13 @@
       <workItem from="1611711309304" duration="28000" />
       <workItem from="1614127856199" duration="6434000" />
       <workItem from="1614740612848" duration="495000" />
-      <workItem from="1615601799938" duration="4276000" />
+      <workItem from="1615601799938" duration="4315000" />
+      <workItem from="1615770057637" duration="6241000" />
+      <workItem from="1616117155225" duration="1441000" />
+      <workItem from="1616467510338" duration="924000" />
+      <workItem from="1618299348328" duration="7844000" />
+      <workItem from="1618383417147" duration="1637000" />
+      <workItem from="1619060786637" duration="12057000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -818,28 +914,17 @@
       <option name="project" value="LOCAL" />
       <updated>1614246679202</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Joker =&gt; synch">
+      <created>1615629643372</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615629643372</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ElastisearchApplicationTests_query - 2020.07.04 at 15h 53m 02s.xml">
-      <configuration name="ElastisearchApplicationTests.query" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElastisearchApplicationTests_query - 2020.07.04 at 15h 55m 06s.xml">
-      <configuration name="ElastisearchApplicationTests.query" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HDFSClient_testCopyFromLocalFile - 2020.07.07 at 14h 42m 38s.xml">
-      <configuration name="HDFSClient.testCopyFromLocalFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HDFSClient_testCopyToLocalFile - 2020.07.07 at 15h 00m 10s.xml">
-      <configuration name="HDFSClient.testCopyToLocalFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HDFSClient_testCopyToLocalFile - 2020.07.07 at 19h 22m 58s.xml">
-      <configuration name="HDFSClient.testCopyToLocalFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HDFSClient_testFileInfo - 2020.07.07 at 19h 23m 38s.xml">
-      <configuration name="HDFSClient.testFileInfo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HDFSClient_testFileState - 2020.07.07 at 19h 29m 33s.xml">
       <configuration name="HDFSClient.testFileState" configurationId="JUnit" />
     </history-entry>
@@ -852,14 +937,33 @@
     <history-entry file="HDFSIO_getFileToIO - 2020.07.07 at 19h 51m 46s.xml">
       <configuration name="HDFSIO.getFileToIO" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelloController_demo1 - 2021.04.23 at 15h 51m 23s.xml">
+      <configuration name="HelloController.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloController_demo1 - 2021.04.23 at 15h 55m 54s.xml">
+      <configuration name="HelloController.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloController_demo2 - 2021.04.23 at 15h 57m 46s.xml">
+      <configuration name="HelloController.demo2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloController_demo3 - 2021.04.23 at 16h 00m 21s.xml">
+      <configuration name="HelloController.demo3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloController_demo4 - 2021.04.23 at 16h 02m 54s.xml">
+      <configuration name="HelloController.demo4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloController_demo5 - 2021.04.23 at 16h 05m 01s.xml">
+      <configuration name="HelloController.demo5" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="382141000" />
+    <option name="totallyTimeSpent" value="412324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17270789" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -869,7 +973,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53846157" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24740125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34511435" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -878,7 +982,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2952183" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.124740124" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -886,7 +990,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.16684435" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.12633263" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
@@ -943,113 +1047,10 @@
     <MESSAGE value="Joker =&gt; JVM" />
     <MESSAGE value="Joker =&gt; Hadoop" />
     <MESSAGE value="Joker =&gt; Zookeeper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; Zookeeper" />
+    <MESSAGE value="Joker =&gt; synch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; synch" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerRecordReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="81" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/JokerInputFormat/JokerDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/KVText/KVTextDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="49" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/FlowCountDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Writable/ProvincePartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/FlowBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#1811#1812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Sort/SortReduce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -1325,20 +1326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Table/TableReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1058">
@@ -1365,17 +1352,6 @@
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="49" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-          <folding>
-            <element signature="e#2046#2047#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1424,9 +1400,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/SynchdetailApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/HelloVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="3059">
           <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
           <folding>
             <element signature="e#4725#4726#0" expanded="true" />
@@ -1435,31 +1438,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/test/java/com/joker/jokerredis/JokerRedisApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="94" />
+        <state relative-caret-position="299">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/SynchdetailApplication.java">
+    <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/reference/PhantomReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/JokerRedisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.1.RELEASE/spring-data-redis-2.2.1.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16008">
+          <caret line="795" column="33" selection-start-line="795" selection-start-column="33" selection-end-line="795" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5980">
+          <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/joker-synchdetail/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="690">
           <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-synchdetail/src/main/java/com/joker/synchdetail/synchdetail/volatiles/Volatiles.java">
+    <entry file="file://$PROJECT_DIR$/joker-redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="368">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#4133#4134#0" expanded="true" />
+            <element signature="e#4205#4206#0" expanded="true" />
+            <element signature="e#4365#4366#0" expanded="true" />
+            <element signature="e#4435#4436#0" expanded="true" />
+            <element signature="e#6735#6736#0" expanded="true" />
+            <element signature="e#6803#6804#0" expanded="true" />
+            <element signature="e#7015#7016#0" expanded="true" />
+            <element signature="e#7090#7091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/JedisPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/SecKill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/Seckill_ByScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

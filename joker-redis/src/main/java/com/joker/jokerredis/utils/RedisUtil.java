@@ -3,6 +3,7 @@ package com.joker.jokerredis.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;
@@ -13,12 +14,12 @@ import java.util.concurrent.TimeUnit;
 /**
  *  Redis 工具类
  */
+@Component
 public class RedisUtil {
 
 
         @Autowired
-        private RedisTemplate<String,Object> redisTemplate;
-
+        private RedisTemplate redisTemplate;
 
         /**
          * 指定缓存失效时间
@@ -96,9 +97,10 @@ public class RedisUtil {
          * @param value 值
          * @return true成功 false失败
          */
-        public boolean set(String key, Object value) {
+        public static boolean set(String key, Object value) {
+
             try {
-                redisTemplate.opsForValue().set(key, value);
+//                redisTemplate.opsForValue().set(key, value);
                 return true;
             } catch (Exception e) {
                 e.printStackTrace();
