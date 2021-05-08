@@ -22,13 +22,13 @@
         <module name="joker-provider3" />
         <module name="joker-rabbitmq" />
         <module name="joker-redis" />
+        <module name="joker-shine" />
         <module name="joker-sso" />
         <module name="joker-sso2" />
         <module name="joker-swagger2" />
         <module name="joker-synchdetail" />
         <module name="joker-zookeeper" />
         <module name="joker-zuul" />
-        <module name="jokerLin" />
         <module name="rabbit" />
       </profile>
     </annotationProcessing>
@@ -61,6 +61,7 @@
       <module name="joker-rabbitmq" options="-parameters" />
       <module name="joker-redis" options="-parameters" />
       <module name="joker-service" options="-parameters" />
+      <module name="joker-shine" options="-parameters" />
       <module name="joker-sso" options="-parameters" />
       <module name="joker-sso2" options="-parameters" />
       <module name="joker-swagger" options="-parameters" />
