@@ -1,5 +1,7 @@
 package com.joker.transactional;
 
+import com.joker.common.JokerMapper;
+import com.joker.common.JokerTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -50,7 +52,6 @@ public class TransactionalController {
      */
 
 
-
     /**
      * ORM框架 三大特点
      * 1.绑定参数 生成SQL
@@ -89,7 +90,7 @@ public class TransactionalController {
     }
 
     /**
-     * 编程时事务管理
+     * 编程时事务管理  【代码侵入性高】
      * @throws SQLException
      */
     public void demo1() throws SQLException {
@@ -108,4 +109,42 @@ public class TransactionalController {
             dataSourceTransactionManager.rollback(transaction); //事务回滚
         }
     }
+
+    @Autowired
+    JokerMapper jokerMapper;
+
+
+    /**
+     *  动态增强代码功能 -- AOP 面向切面编程
+     *
+     *  1.创建注解:public @interface JokerTransactional{}
+     *  2.元描述(描述注解的一种方式)
+     *    @Retention 定义注解的生命周期:[ source -> class -> runtime ]
+     *    @Documented 文档注解,会被javadoc工具文档化
+     *    @Inherited 是否让子类继承该注解
+     *    @Targer 描述了注解的应用范围
+     *
+     *    TYPE : 表示可以用来修饰类、接口、注解类型、或枚举类型
+     *    PACKAGE : 可以用来修饰包
+     *    PARAMETER : 可以用来修饰参数
+     *    ANNOTATION_TYPE : 可以用来修饰注解类型
+     *    METHOD : 可以用来修饰方法
+     *    FIELD : 可以用来修饰属性(包括枚举常量)
+     *    CONSTRUCTOR : 可以用来修饰构造器
+     *    LOCAL_VARIABLE : 可用来修饰局部变量
+     */
+
+    /**
+     * 自定义实现 类似spring事务功能
+     *
+     */
+    @JokerTransactional  // 声明 -- 告诉其他代码、这个方法需要进行事务控制
+    public void demo2() throws SQLException {
+        //业务代码-------------
+        jokerMapper.execute("sql1");
+        jokerMapper.execute("sql2");
+        int i = 10/0; //人造异常
+        //业务代码 ----------
+    }
+
 }
