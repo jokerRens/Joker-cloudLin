@@ -6,22 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="Joker =&gt; transactional">
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/BankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/DieLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/thread/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/thread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/thread/ThreadCreateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketThread.java" afterDir="false" />
+    <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/CommunicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/NumberThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/ThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/JokerShineApplicaton.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/JokerShineApplicaton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,68 +66,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketRunnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="59" column="30" lean-forward="true" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
               <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/thread/MyRunnable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/ticketthread/TicketDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -151,14 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/DieLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="369">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -168,6 +97,66 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/CommunicationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/ThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/NumberThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="32" lean-forward="true" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/Number.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -217,10 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheDriver.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Cache/DistributedCacheMapper.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/Compress/TestCompress.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hadoop/jokerhadoop/MapReduce/WordCountDriver.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/pom.xml" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hive/joker/UDF/MyUDF.java" />
         <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hive/joker/MyUDF.java" />
@@ -268,6 +253,10 @@
         <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableDemo.java" />
         <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableTest.java" />
         <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/Bank.java" />
+        <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/CommunicationTest.java" />
+        <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/Number.java" />
+        <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/NumberThread.java" />
+        <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/ThreadPool.java" />
       </list>
     </option>
   </component>
@@ -352,27 +341,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="joker" type="462c0819:PsiDirectoryNode" />
-              <item name="banktest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-shine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joker" type="462c0819:PsiDirectoryNode" />
-              <item name="callable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
-              <item name="joker-shine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joker" type="462c0819:PsiDirectoryNode" />
-              <item name="ticketthread" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
@@ -396,7 +365,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622801377640" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622888590429" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-shine/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -433,13 +402,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CallableTest">
+  <component name="RunManager" selected="Application.ThreadPool">
     <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.joker.callable.CallableTest" />
       <module name="joker-shine" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.joker.callable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunicationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joker.communication.CommunicationTest" />
+      <module name="joker-shine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joker.communication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,25 +442,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecKill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.jokerredis.controller.SecKill" />
-      <module name="joker-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.joker.jokerredis.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadCreateController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.thread.ThreadCreateController" />
+    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joker.threadpool.ThreadPool" />
       <module name="joker-shine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joker.thread.*" />
+          <option name="PATTERN" value="com.joker.threadpool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -684,8 +653,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SecKill" />
-      <item itemvalue="Application.ThreadCreateController" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.ConsumerFeignApplication" />
       <item itemvalue="Spring Boot.DashboardApplication" />
@@ -715,14 +682,16 @@
       <item itemvalue="Application.TicketTest" />
       <item itemvalue="Application.DieLock" />
       <item itemvalue="Application.CallableTest" />
+      <item itemvalue="Application.CommunicationTest" />
+      <item itemvalue="Application.ThreadPool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPool" />
+        <item itemvalue="Application.CommunicationTest" />
         <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.TicketTest" />
         <item itemvalue="Application.DieLock" />
-        <item itemvalue="Application.ThreadCreateController" />
-        <item itemvalue="Application.SecKill" />
       </list>
     </recent_temporary>
   </component>
@@ -809,7 +778,7 @@
       <workItem from="1621044780285" duration="5685000" />
       <workItem from="1621213149892" duration="5329000" />
       <workItem from="1621302057919" duration="35000" />
-      <workItem from="1622615708097" duration="31382000" />
+      <workItem from="1622615708097" duration="41623000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -958,7 +927,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620954708520</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Joker =&gt; Thread">
+      <created>1622801410752</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1622801410752</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -994,11 +970,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="477533000" />
+    <option name="totallyTimeSpent" value="487774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17239584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1010,7 +985,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15345529" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3648374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2784553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1088,40 +1063,10 @@
     <MESSAGE value="Joker =&gt; redis" />
     <MESSAGE value="Joker =&gt; scheduled" />
     <MESSAGE value="Joker =&gt; transactional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; transactional" />
+    <MESSAGE value="Joker =&gt; Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; Thread" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5980">
-          <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-synchdetail/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/Seckill_ByScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-jvm/src/main/java/com/joker/JokerJvmApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joker-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1386,27 +1331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/DieLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/BankTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/thread/MyRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1453,6 +1377,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -1460,10 +1394,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/callable/CallableTest.java">
+    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/DieLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="369">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/BankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/banktest/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/CommunicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/NumberThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="32" lean-forward="true" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
