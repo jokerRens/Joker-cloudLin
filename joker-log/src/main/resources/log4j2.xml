@@ -1,0 +1,193 @@
+<!--
+status 级别有8个：ALL,TRACE, DEBUG, INFO, WARN, ERROR ,FATAL,OFF。是帮助开发者找错用的，它可以检测log4j 2的配置文件是否有错，也可以检测到死循环的logger
+monitorInterval log4j2 自动检测配置文件的时间间隔（单位：秒）
+-->
+<configuration status="OFF" monitorInterval="30">
+    <Properties>
+        <!--
+            日志输出格式，每个转换说明符以百分号(%)开头，'%'后面的转换字符有如下:
+            p (level) 日志级别
+            c（logger） Logger的Name
+            C (class) Logger调用者的全限定类名
+            d (date) 日期
+            highlight 高亮颜色
+            l (location) 调用位置
+            L (line) 行号
+            m (msg/message) 输出的内容
+            M (methode) 调用方法 ***
+            maker marker的全限定名
+            n 输出平台相关的换行符,如'\n' '\r\n'
+            pid (processId) 进程ID
+            level （p）日志级别
+            r JVM启动后经过的微秒
+            t (tn/thread/threadName) 线程名称
+            T (tid/threadId) 线程ID
+            tp (threadPriority) 线程优先级
+            x (NDC) 线程Context堆栈
+        -->
+        <!--日志输出格式-->
+        <Property name="pattern">%d{yyyy-MM-dd HH:mm:ss,SSS}    |%p|  |%T %pid %threadName|  |%c|   |%L| %M %m%n</Property>
+        <Property name="logPath">D:\logs</Property>
+
+        <!--应用版本-->
+        <Property name="appName">joker-log</Property>
+        <Property name="version">1.0.0</Property>
+
+    </Properties>
+    <Appenders>
+
+        <!--
+            设置在控制台打印日志
+            将输出写到 System.err 或 System.out 。如果想将输出写到System.out，设置Console标签下的target为 SYSTEM_OUT ；如果想将输出写到System.err，设置Console标签下的target为 SYSTEM_ERR
+        -->
+        <!--设置在控制台打印日志-->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern}"/>
+        </Console>
+
+
+        <!--
+            设置级别为 DEBUG 日志输出到 debug.log 中
+            日志写入策略 immediateFlush log4j2接收到日志事件时，是否立即将日志刷到磁盘。默认为true 。
+            异步日志将会自动批量刷新到磁盘，所以这里设置为false
+        -->
+        <!--设置级别为 DEBUG 日志输出到 debug.log 中-->
+        <RollingRandomAccessFile name="debug"
+                                 immediateFlush="true"
+                                 fileName="${logPath}/debug.log"
+                                 filePattern="${logPath}/debug-%d{yyyy-MM-dd}.log">
+            <Filters>
+                <!--设置只输出级别为 debug 的日志-->
+                <ThresholdFilter level="DEBUG"/>
+                <ThresholdFilter level="INFO" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <PatternLayout pattern="${pattern}"/>
+            <Policies>
+                <!-- 按天生成日志文件-->
+                <!--
+                    根据时间生成日志文件
+                    单位：以文件命名中的时间精度来确定单位。比如 yyyy-MM-dd 单位为天，yyyy-MM-dd-HH 单位为小时
+                    interval：时间间隔
+                -->
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <!-- 最多保存日志文件的数目 -->
+            <DefaultRolloverStrategy max="15"/>
+        </RollingRandomAccessFile>
+        <RollingRandomAccessFile name="info"
+                                 immediateFlush="true"
+                                 fileName="${logPath}/info.log"
+                                 filePattern="${logPath}/info-%d{yyyy-MM-dd}.log">
+            <Filters>
+                <ThresholdFilter level="INFO"/>
+                <ThresholdFilter level="WARN" onMatch="DENY" onMismatch="NEUTRAL"/>
+
+            </Filters>
+            <PatternLayout pattern="${pattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <DefaultRolloverStrategy max="60"/>
+        </RollingRandomAccessFile>
+        <RollingRandomAccessFile name="warn"
+                                 immediateFlush="true"
+                                 fileName="${logPath}/warn.log"
+                                 filePattern="${logPath}/warn-%d{yyyy-MM-dd}.log">
+            <Filters>
+                <ThresholdFilter level="WARN"/>
+                <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <PatternLayout pattern="${pattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <DefaultRolloverStrategy max="60"/>
+        </RollingRandomAccessFile>
+        <RollingRandomAccessFile name="error"
+                                 immediateFlush="true"
+                                 fileName="${logPath}/error.log"
+                                 filePattern="${logPath}/error-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${pattern}"/>
+            <Filters>
+                <ThresholdFilter level="ERROR"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <DefaultRolloverStrategy max="60"/>
+        </RollingRandomAccessFile>
+        <!-- 设置 task_suc 日志 -->
+        <!--<RollingRandomAccessFile name="task_suc"-->
+                                 <!--immediateFlush="false"-->
+                                 <!--fileName="${logPath}/task_suc.log"-->
+                                 <!--filePattern="${logPath}/task_suc-%d{yyyy-MM-dd}.log">-->
+            <!--<PatternLayout pattern="${pattern}"/>-->
+            <!--<Policies>-->
+                <!--<TimeBasedTriggeringPolicy modulate="true" interval="1"/>-->
+            <!--</Policies>-->
+            <!--<DefaultRolloverStrategy max="90"/>-->
+        <!--</RollingRandomAccessFile>-->
+        <!-- 设置 task_fail 日志 -->
+        <!--<RollingRandomAccessFile name="task_fail"-->
+                                 <!--immediateFlush="false"-->
+                                 <!--fileName="${logPath}/task_fail.log"-->
+                                 <!--filePattern="${logPath}/task_fail-%d{yyyy-MM-dd}.log">-->
+            <!--<PatternLayout pattern="${pattern}"/>-->
+            <!--<Policies>-->
+                <!--<TimeBasedTriggeringPolicy modulate="true" interval="1"/>-->
+            <!--</Policies>-->
+            <!--<DefaultRolloverStrategy max="90"/>-->
+        <!--</RollingRandomAccessFile>-->
+
+        <!--日志输出到logstash-->
+        <!--
+        将日志输出到logstash，由logstash输出到es，然后在kibana的logs面板可以实时查看日志
+            host:logstash配置文件中接收数据的地址
+            ignoreExceptions = true 时、代表当前应用会忽略因为gelf产生的相关异常，否则会返回500异常
+        -->
+        <Gelf name="logstash-gelf" host="udp:127.0.0.1" port="4560" version="1.1" ignoreExceptions="true" >
+            <!--这里只是接受error级别的异常-->
+            <!--<ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />-->
+            <!--这里定义的地段会被logstash接受使用-->
+
+            <Field name="timestamp" pattern="%d{yyyy-MM-dd HH:mm:ss.SSS}" />
+            <Field name="logger" pattern="%logger" />
+            <Field name="level" pattern="%level" />
+            <Field name="thread" pattern="%t" />
+            <Field name="className" pattern="%C" />
+            <Field name="method" pattern="%M" />
+            <Field name="line" pattern="%L" />
+            <!--当前所在服务器的系统节点名称-->
+            <Field name="server" pattern="%host" />
+            <!--为当前应用指定ES索引名称 、 在logstash中被应用于创建索引-->
+            <Field name="index" pattern="log4j2-${appName}-v${version}"/>
+        </Gelf>
+
+
+    </Appenders>
+    <Loggers>
+        <!-- 整个工程默认日志实例，name=工程名，例如用@Slf4j这个注解或者LoggerFactory.getLogger(XXX.class)的日志实例 -->
+        <Logger name="com.joker.jokerlog.controller.Slf4jTest" level="DEBUG" additivity="true">
+            <AppenderRef ref="debug"/>
+            <AppenderRef ref="info"/>
+            <AppenderRef ref="warn"/>
+            <AppenderRef ref="error"/>
+        </Logger>
+        <!-- org.springframework 只输出 ERROR 级别以上的日志 -->
+        <Logger name="org.springframework" level="ERROR"/>
+        <!-- org.apache 只输出 ERROR 级别以上的日志 -->
+        <Logger name="org.apache" level="ERROR"/>
+        <!--&lt;!&ndash; task_suc 日志 &ndash;&gt;-->
+        <!--<Logger name="task_suc" additivity="true">-->
+            <!--<AppenderRef ref="task_suc"/>-->
+        <!--</Logger>-->
+        <!--&lt;!&ndash; task_fail 日志 &ndash;&gt;-->
+        <!--<Logger name="task_fail" additivity="true">-->
+            <!--<AppenderRef ref="task_fail"/>-->
+        <!--</Logger>-->
+        <Root level="DEBUG">
+            <AppenderRef ref="console"/>
+            <AppenderRef ref="logstash-gelf" />
+        </Root>
+    </Loggers>
+</configuration>

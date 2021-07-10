@@ -7,8 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Log4j2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Slf4jTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-log/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/ThreadPool.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,6 +46,7 @@
     <ignored path="$PROJECT_DIR$/joker-zookeeper/target/" />
     <ignored path="$PROJECT_DIR$/joker-synchdetail/target/" />
     <ignored path="$PROJECT_DIR$/joker-shine/target/" />
+    <ignored path="$PROJECT_DIR$/joker-log/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +70,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/utils/Swagger2.java">
+        <entry file="file://$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/kafka/TestConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="345">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/JokerLogApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-log/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-log/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Log4j2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/joker-log/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,64 +139,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Slf4jTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-redis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/JokerRedisApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/utils/RedisUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/JedisPoolUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="509">
+              <caret line="45" column="43" selection-start-line="41" selection-start-column="14" selection-end-line="45" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,6 +199,11 @@
       <find>ScheduledTasks</find>
       <find>ScheduledTaskre</find>
       <find>State</find>
+      <find>logPath</find>
+      <find>Root</find>
+      <find>task_suc</find>
+      <find>appenders</find>
+      <find>log4j2</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -200,12 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/joker-hadoop/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hive/joker/UDF/MyUDF.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hive/joker/MyUDF.java" />
-        <option value="$PROJECT_DIR$/joker-hadoop/src/main/java/com/hive/joker/UDTF/MyUDTF.java" />
-        <option value="$PROJECT_DIR$/joker-zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/JokerZookeeperApplication.java" />
         <option value="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/TestZookeeper.java" />
         <option value="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeServer.java" />
         <option value="$PROJECT_DIR$/joker-zookeeper/src/main/java/com/joker/zookeeper/controller/DistributeClient.java" />
@@ -251,6 +263,12 @@
         <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/communication/Number.java" />
         <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/NumberThread.java" />
         <option value="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/threadpool/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Log4j2Test.java" />
+        <option value="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Slf4jTest.java" />
+        <option value="$PROJECT_DIR$/joker-log/pom.xml" />
+        <option value="$PROJECT_DIR$/joker-log/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/joker-log/src/main/resources/log4j2.xml" />
       </list>
     </option>
   </component>
@@ -291,6 +309,59 @@
               <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
               <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jokerlog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jokerlog" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jokerLin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jokerLin" type="462c0819:PsiDirectoryNode" />
+              <item name="joker-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -306,7 +377,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1624011054244" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625912647079" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-shine/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -343,46 +414,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadPool">
-    <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.callable.CallableTest" />
-      <module name="joker-shine" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.joker.callable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommunicationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.communication.CommunicationTest" />
-      <module name="joker-shine" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.joker.communication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DieLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.banktest.DieLock" />
-      <module name="joker-shine" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.joker.banktest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Slf4jTest.log4j2">
     <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.joker.threadpool.ThreadPool" />
       <module name="joker-shine" />
@@ -396,15 +428,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.ticketthread.TicketTest" />
-      <module name="joker-shine" />
+    <configuration name="Log4j2Test.testQuick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-log" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joker.ticketthread.*" />
+          <option name="PATTERN" value="com.joker.jokerlog.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.joker.jokerlog.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerlog.controller.Log4j2Test" />
+      <option name="METHOD_NAME" value="testQuick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slf4jTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joker.jokerlog.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.joker.jokerlog.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerlog.controller.Slf4jTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slf4jTest.log4j2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joker.jokerlog.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.joker.jokerlog.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerlog.controller.Slf4jTest" />
+      <option name="METHOD_NAME" value="log4j2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slf4jTest.testQuick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="joker-log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joker.jokerlog.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.joker.jokerlog.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.joker.jokerlog.controller.Slf4jTest" />
+      <option name="METHOD_NAME" value="testQuick" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -483,6 +565,13 @@
     <configuration name="JokerKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-kafka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.jokerkafka.JokerKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JokerLogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-log" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.jokerlog.JokerLogApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -594,10 +683,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TicketTest" />
-      <item itemvalue="Application.DieLock" />
-      <item itemvalue="Application.CallableTest" />
-      <item itemvalue="Application.CommunicationTest" />
       <item itemvalue="Application.ThreadPool" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.ConsumerFeignApplication" />
@@ -625,14 +710,19 @@
       <item itemvalue="Spring Boot.JokerZookeeperApplication" />
       <item itemvalue="Spring Boot.SynchdetailApplication" />
       <item itemvalue="Spring Boot.JokerShineApplication" />
+      <item itemvalue="Spring Boot.JokerLogApplication" />
+      <item itemvalue="JUnit.Log4j2Test.testQuick" />
+      <item itemvalue="JUnit.Slf4jTest.testQuick" />
+      <item itemvalue="JUnit.Slf4jTest.log4j2" />
+      <item itemvalue="JUnit.Slf4jTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Slf4jTest.log4j2" />
+        <item itemvalue="JUnit.Slf4jTest" />
+        <item itemvalue="JUnit.Slf4jTest.testQuick" />
+        <item itemvalue="JUnit.Log4j2Test.testQuick" />
         <item itemvalue="Application.ThreadPool" />
-        <item itemvalue="Application.CommunicationTest" />
-        <item itemvalue="Application.CallableTest" />
-        <item itemvalue="Application.TicketTest" />
-        <item itemvalue="Application.DieLock" />
       </list>
     </recent_temporary>
   </component>
@@ -725,6 +815,9 @@
       <workItem from="1623810177488" duration="583000" />
       <workItem from="1623997872175" duration="5726000" />
       <workItem from="1624518104994" duration="615000" />
+      <workItem from="1624531386672" duration="38000" />
+      <workItem from="1625039156471" duration="1121000" />
+      <workItem from="1625886572508" duration="10051000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -887,49 +980,55 @@
       <option name="project" value="LOCAL" />
       <updated>1622888601845</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Joker =&gt; Thread">
+      <created>1624531414817</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1624531414817</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HDFSClient_testFileState - 2020.07.07 at 19h 29m 33s.xml">
-      <configuration name="HDFSClient.testFileState" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 50m 23s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HDFSIO_putFileToIO - 2020.07.07 at 19h 37m 51s.xml">
-      <configuration name="HDFSIO.putFileToIO" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 50m 55s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HDFSIO_putFileToIO - 2020.07.07 at 19h 51m 33s.xml">
-      <configuration name="HDFSIO.putFileToIO" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 52m 21s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HDFSIO_getFileToIO - 2020.07.07 at 19h 51m 46s.xml">
-      <configuration name="HDFSIO.getFileToIO" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 52m 53s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloController_demo1 - 2021.04.23 at 15h 51m 23s.xml">
-      <configuration name="HelloController.demo1" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 53m 01s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloController_demo1 - 2021.04.23 at 15h 55m 54s.xml">
-      <configuration name="HelloController.demo1" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 54m 58s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloController_demo2 - 2021.04.23 at 15h 57m 46s.xml">
-      <configuration name="HelloController.demo2" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 55m 33s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloController_demo3 - 2021.04.23 at 16h 00m 21s.xml">
-      <configuration name="HelloController.demo3" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 56m 38s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloController_demo4 - 2021.04.23 at 16h 02m 54s.xml">
-      <configuration name="HelloController.demo4" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 11h 56m 55s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloController_demo5 - 2021.04.23 at 16h 05m 01s.xml">
-      <configuration name="HelloController.demo5" configurationId="JUnit" />
+    <history-entry file="Slf4jTest_log4j2 - 2021.07.10 at 12h 01m 11s.xml">
+      <configuration name="Slf4jTest.log4j2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="501540000" />
+    <option name="totallyTimeSpent" value="512750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -939,7 +1038,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20020325" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.56029105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2784553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1021,85 +1120,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; Thread" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar!/org/springframework/scheduling/annotation/Schedules.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar!/org/springframework/scheduling/annotation/Scheduled.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar!/org/springframework/context/annotation/Role.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar!/org/springframework/scheduling/annotation/EnableScheduling.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/common/JokerTransactionAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/common/JokerTransactional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/common/JokerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/common/JokerTransactionalManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/thread/A.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1332,7 +1352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/utils/Swagger2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="874">
           <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1375,6 +1395,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/controller/JVMController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/JedisPoolUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1396,10 +1437,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/kafka/TestConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Log4j2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Slf4jTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="45" column="43" selection-start-line="41" selection-start-column="14" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/JokerLogApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-log/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joker-log/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
         </state>
       </provider>
     </entry>

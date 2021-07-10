@@ -17,6 +17,7 @@
         <module name="joker-hystrix" />
         <module name="joker-jvm" />
         <module name="joker-kafka" />
+        <module name="joker-log" />
         <module name="joker-provider" />
         <module name="joker-provider2" />
         <module name="joker-provider3" />
@@ -55,6 +56,7 @@
       <module name="joker-hystrix" options="-parameters" />
       <module name="joker-jvm" options="-parameters" />
       <module name="joker-kafka" options="-parameters" />
+      <module name="joker-log" options="-parameters" />
       <module name="joker-provider" options="-parameters" />
       <module name="joker-provider2" options="-parameters" />
       <module name="joker-provider3" options="-parameters" />
