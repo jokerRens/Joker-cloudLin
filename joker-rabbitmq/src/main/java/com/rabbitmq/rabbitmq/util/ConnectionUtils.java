@@ -12,15 +12,15 @@ public class ConnectionUtils {
         //定义一个连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         //设置服务器地址
-        factory.setHost("127.0.0.1");
+        factory.setHost("127.168.200.10");
         //AMQP
         factory.setPort(5672);
         //vhost
-        factory.setVirtualHost("/vhost_joker");
+        factory.setVirtualHost("/music");
         //用户名
-        factory.setUsername("joker");
+        factory.setUsername("admin");
         //密码
-        factory.setPassword("123456");
+        factory.setPassword("admin");
         // 通过工程获取连接
         return factory.newConnection();
     }

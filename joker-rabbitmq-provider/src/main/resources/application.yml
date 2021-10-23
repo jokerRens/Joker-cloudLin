@@ -1,0 +1,28 @@
+server:
+  port: 8021
+spring:
+  application:
+    name: rabbitmq-provider
+#  rabbitmq:
+#    #服务地址  内网地址
+#    addresses: 172.31.11.235:8001
+#    #用户名
+#    username: crisisgo
+#    #密码
+#    password: 123456
+#    #vhost
+#    virtual-host: /
+
+  rabbitmq:
+    host: 192.168.200.10
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /music
+#    #在需要使用消息的return机制时候，此参数必须设置为true
+#    template:
+#      mandatory: true
+#    #确认消息已发送到队列(Queue)
+#    publisher-returns: true
+#    #确认消息已发送到交换机(Exchange) correlated:开启;NONE:关闭
+#    publisher-confirm-type: correlated

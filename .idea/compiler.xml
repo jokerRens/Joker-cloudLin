@@ -6,31 +6,44 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="joker-consumer" />
-        <module name="joker-consumer2" />
+        <module name="joker-shine" />
+        <module name="joker-log" />
+        <module name="joker-kafka" />
+        <module name="joker-rabbitmq-provider" />
         <module name="joker-dashboard" />
-        <module name="joker-elastisearch" />
-        <module name="joker-eureka" />
-        <module name="joker-eureka2" />
+        <module name="consumer-feign" />
+        <module name="joker-consumer" />
+        <module name="rabbit" />
         <module name="joker-eureka3" />
         <module name="joker-hadoop" />
-        <module name="joker-hystrix" />
-        <module name="joker-jvm" />
-        <module name="joker-kafka" />
-        <module name="joker-log" />
-        <module name="joker-provider" />
-        <module name="joker-provider2" />
-        <module name="joker-provider3" />
-        <module name="joker-rabbitmq" />
-        <module name="joker-redis" />
-        <module name="joker-shine" />
+        <module name="joker-synchdetail" />
         <module name="joker-sso" />
         <module name="joker-sso2" />
+        <module name="consumer" />
+        <module name="dashboard" />
+        <module name="synchdetail" />
+        <module name="joker-redis" />
+        <module name="elastisearch" />
+        <module name="hystrix" />
+        <module name="joker-consumer2" />
+        <module name="joker-hystrix" />
+        <module name="joker-elastisearch" />
+        <module name="joker-eureka2" />
+        <module name="eureka3" />
         <module name="joker-swagger2" />
-        <module name="joker-synchdetail" />
-        <module name="joker-zookeeper" />
+        <module name="eureka2" />
+        <module name="zuul" />
+        <module name="rabbitmq" />
+        <module name="joker-jvm" />
         <module name="joker-zuul" />
-        <module name="rabbit" />
+        <module name="joker-provider3" />
+        <module name="joker-provider" />
+        <module name="joker-zookeeper" />
+        <module name="joker-rabbitmq" />
+        <module name="joker-eureka" />
+        <module name="joker-provider2" />
+        <module name="provider2" />
+        <module name="provider3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -43,7 +56,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="-parameters" />
+      <module name="consumer-feign" options="-parameters" />
+      <module name="dashboard" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="elastisearch" options="-parameters" />
+      <module name="eureka2" options="-parameters" />
+      <module name="eureka3" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
       <module name="joker-consumer" options="-parameters" />
       <module name="joker-consumer2" options="-parameters" />
       <module name="joker-dashboard" options="-parameters" />
@@ -61,6 +81,7 @@
       <module name="joker-provider2" options="-parameters" />
       <module name="joker-provider3" options="-parameters" />
       <module name="joker-rabbitmq" options="-parameters" />
+      <module name="joker-rabbitmq-provider" options="-parameters" />
       <module name="joker-redis" options="-parameters" />
       <module name="joker-service" options="-parameters" />
       <module name="joker-shine" options="-parameters" />
@@ -71,8 +92,13 @@
       <module name="joker-synchdetail" options="-parameters" />
       <module name="joker-zookeeper" options="-parameters" />
       <module name="joker-zuul" options="-parameters" />
+      <module name="provider2" options="-parameters" />
+      <module name="provider3" options="-parameters" />
       <module name="rabbit" options="-parameters" />
+      <module name="rabbitmq" options="-parameters" />
       <module name="swagger2" options="-parameters" />
+      <module name="synchdetail" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,30 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$/joker-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-consumer2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-consumer2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-dashboard/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-elastisearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-elastisearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-eureka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-eureka2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-eureka3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-eureka3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-hadoop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-hadoop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-jvm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-jvm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-log" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-provider2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-provider2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-provider3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-provider3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-shine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-shine/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-sso/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-sso2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-sso2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-swagger2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-swagger2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-synchdetail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-synchdetail/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-zookeeper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joker-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joker-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rabbit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rabbit/src/main/java" charset="UTF-8" />
   </component>
 </project>

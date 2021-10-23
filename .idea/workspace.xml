@@ -5,49 +5,42 @@
       <artifact name="joker-hadoop:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Log4j2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Slf4jTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joker-log/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/RabbitMQProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/conf/DeadLetterRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/conf/DelayedRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/conf/DirectRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/conf/FanoutRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/conf/MessageListenerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/conf/MyAckReceiverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/conf/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/conf/TopicRabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/controller/SendMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/receiver/DeadLetterReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/receiver/DelayedReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/receiver/DirectReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/receiver/DirectReceiverNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/receiver/FanoutReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/java/com/rabbitmq/provider/receiver/TopicReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/music/MusicController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/RabbitMQ/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/send.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/exchange/send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/util/ConnectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/java/com/rabbitmq/rabbitmq/util/ConnectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-rabbitmq/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/joker-rabbitmq/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-shine/joker-shine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jokerLin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/joker-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/joker-provider/target/" />
-    <ignored path="$PROJECT_DIR$/joker-eureka2/target/" />
-    <ignored path="$PROJECT_DIR$/joker-eureka3/target/" />
-    <ignored path="$PROJECT_DIR$/joker-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/joker-provider2/target/" />
-    <ignored path="$PROJECT_DIR$/joker-provider3/target/" />
-    <ignored path="$PROJECT_DIR$/joker-consumer2/target/" />
-    <ignored path="$PROJECT_DIR$/joker-service/target/" />
-    <ignored path="$PROJECT_DIR$/joker-hystrix/target/" />
-    <ignored path="$PROJECT_DIR$/joker-dashboard/target/" />
-    <ignored path="$PROJECT_DIR$/joker-zuul/target/" />
-    <ignored path="$PROJECT_DIR$/joker-rabbitmq/target/" />
-    <ignored path="$PROJECT_DIR$/rabbit/target/" />
-    <ignored path="$PROJECT_DIR$/joker-kafka/target/" />
-    <ignored path="$PROJECT_DIR$/joker-elastisearch/target/" />
-    <ignored path="$PROJECT_DIR$/joker-swagger/target/" />
-    <ignored path="$PROJECT_DIR$/swagger2/target/" />
-    <ignored path="$PROJECT_DIR$/demo/target/" />
-    <ignored path="$PROJECT_DIR$/joker-swagger2/target/" />
-    <ignored path="$PROJECT_DIR$/joker-redis/target/" />
-    <ignored path="$PROJECT_DIR$/joker-sso/target/" />
-    <ignored path="$PROJECT_DIR$/joker-sso2/target/" />
-    <ignored path="$PROJECT_DIR$/joker-jvm/target/" />
-    <ignored path="$PROJECT_DIR$/joker-hadoop/target/" />
-    <ignored path="$PROJECT_DIR$/joker-zookeeper/target/" />
-    <ignored path="$PROJECT_DIR$/joker-synchdetail/target/" />
-    <ignored path="$PROJECT_DIR$/joker-shine/target/" />
-    <ignored path="$PROJECT_DIR$/joker-log/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,109 +59,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-kafka/src/main/java/com/example/jokerkafka/kafka/TestConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/JokerLogApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-log/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-log/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Log4j2Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/joker-log/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-log/src/main/java/com/joker/jokerlog/controller/Slf4jTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="45" column="43" selection-start-line="41" selection-start-column="14" selection-end-line="45" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/SecKill.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joker-redis/src/main/java/com/joker/jokerredis/controller/Seckill_ByScript.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -296,6 +186,7 @@
     <option name="width" value="1482" />
     <option name="height" value="656" />
   </component>
+  <component name="ProjectId" id="21gA1sJ8XwdVR5SUPYKEYHpS2bV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -370,15 +261,26 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1625912647079" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-shine/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/joker-rabbitmq-provider/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -388,39 +290,28 @@
     <property name="settings.editor.selected.configurable" value="settings.gitee" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hive.joker.UDF" />
-      <recent name="com.example.elastisearch.repository" />
-      <recent name="com.example.elastisearch.bean" />
-      <recent name="com.rabbitmq.rabbitmq.exchange" />
-      <recent name="com.example.zuul.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DALIANS\Joker-cloudLin\joker-rabbitmq-provider\src\main\resources" />
       <recent name="D:\Joker\jokerLin\joker-shine\src\main\resources" />
       <recent name="D:\Joker\jokerLin\joker-swagger2\src\main\java\com\joker\jokerswagger2" />
       <recent name="D:\Joker\jokerLin\rabbit\src\main\resources" />
       <recent name="D:\Joker\jokerLin" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rabbitmq.provider.receiver" />
+      <recent name="com.hive.joker.UDF" />
+      <recent name="com.example.elastisearch.repository" />
+      <recent name="com.example.elastisearch.bean" />
+      <recent name="com.rabbitmq.rabbitmq.exchange" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.Slf4jTest.log4j2">
-    <configuration name="ThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joker.threadpool.ThreadPool" />
-      <module name="joker-shine" />
+  <component name="RunManager" selected="Spring Boot.RabbitMQProviderApplication">
+    <configuration name="MusicController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rabbitmq.rabbitmq.music.MusicController" />
+      <module name="rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joker.threadpool.*" />
+          <option name="PATTERN" value="com.rabbitmq.rabbitmq.music.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,18 +319,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Log4j2Test.testQuick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="joker-log" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.joker.jokerlog.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.joker.jokerlog.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.joker.jokerlog.controller.Log4j2Test" />
-      <option name="METHOD_NAME" value="testQuick" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -491,9 +379,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumerfeign.ConsumerFeignApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -505,9 +407,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DashboardApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.dashboard.DashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-dashboard" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.dashboard.DashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElastisearchApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="elastisearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.elastisearch.ElastisearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -519,6 +435,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Eureka2Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka2.Eureka2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Eureka2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-eureka2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka2.Eureka2Application" />
@@ -526,9 +449,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Eureka3Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka3.Eureka3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Eureka3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-eureka3" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka3.Eureka3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hystrix.HystrixApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -633,6 +570,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JokerZookeeperApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="joker-zookeeper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.zookeeper.JokerZookeeperApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JokerZookeeperApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-zookeeper" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.zookeeper.jokerzookeeper.JokerZookeeperApplication" />
@@ -640,9 +584,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Provider2Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.provider2.Provider2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Provider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-provider2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.provider2.Provider2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider3Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.provider3.Provider3Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -661,6 +619,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitMQProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="joker-rabbitmq-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabbitmq.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbitmq.provider.RabbitMQProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbitmq.rabbitmq.RabbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-rabbitmq" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbitmq.rabbitmq.RabbitmqApplication" />
@@ -668,9 +646,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SynchdetailApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="synchdetail" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.synchdetail.synchdetail.SynchdetailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SynchdetailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="joker-synchdetail" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.joker.synchdetail.synchdetail.SynchdetailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul.ZuulApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -683,7 +675,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadPool" />
+      <item itemvalue="Application.MusicController" />
+      <item itemvalue="JUnit.Slf4jTest.testQuick" />
+      <item itemvalue="JUnit.Slf4jTest.log4j2" />
+      <item itemvalue="JUnit.Slf4jTest" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.ConsumerFeignApplication" />
       <item itemvalue="Spring Boot.DashboardApplication" />
@@ -711,21 +706,32 @@
       <item itemvalue="Spring Boot.SynchdetailApplication" />
       <item itemvalue="Spring Boot.JokerShineApplication" />
       <item itemvalue="Spring Boot.JokerLogApplication" />
-      <item itemvalue="JUnit.Log4j2Test.testQuick" />
-      <item itemvalue="JUnit.Slf4jTest.testQuick" />
-      <item itemvalue="JUnit.Slf4jTest.log4j2" />
-      <item itemvalue="JUnit.Slf4jTest" />
+      <item itemvalue="Spring Boot.DashboardApplication (1)" />
+      <item itemvalue="Spring Boot.HystrixApplication (1)" />
+      <item itemvalue="Spring Boot.Eureka3Application (1)" />
+      <item itemvalue="Spring Boot.RabbitmqApplication (1)" />
+      <item itemvalue="Spring Boot.ElastisearchApplication (1)" />
+      <item itemvalue="Spring Boot.Provider2Application (1)" />
+      <item itemvalue="Spring Boot.ZuulApplication (1)" />
+      <item itemvalue="Spring Boot.JokerZookeeperApplication (1)" />
+      <item itemvalue="Spring Boot.Eureka2Application (1)" />
+      <item itemvalue="Spring Boot.ConsumerFeignApplication (1)" />
+      <item itemvalue="Spring Boot.ConsumerApplication (1)" />
+      <item itemvalue="Spring Boot.Provider3Application (1)" />
+      <item itemvalue="Spring Boot.SynchdetailApplication (1)" />
+      <item itemvalue="Spring Boot.RabbitMQProviderApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RabbitMQProviderApplication" />
+        <item itemvalue="Application.MusicController" />
         <item itemvalue="JUnit.Slf4jTest.log4j2" />
         <item itemvalue="JUnit.Slf4jTest" />
         <item itemvalue="JUnit.Slf4jTest.testQuick" />
-        <item itemvalue="JUnit.Log4j2Test.testQuick" />
-        <item itemvalue="Application.ThreadPool" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -818,6 +824,8 @@
       <workItem from="1624531386672" duration="38000" />
       <workItem from="1625039156471" duration="1121000" />
       <workItem from="1625886572508" duration="10051000" />
+      <workItem from="1638352146319" duration="5381000" />
+      <workItem from="1638413473248" duration="20515000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -1101,7 +1109,19 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Joker =&gt; euraka集群" />
