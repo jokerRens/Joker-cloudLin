@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"
+>
+    <bean id="boy" class="com.joker.aops.Boy"></bean>
+    <bean id="girl" class="com.joker.aops.Girl"></bean>
+    <bean id="buyAspect" class="com.joker.aops.BuyAspect"></bean>
+
+
+    <aop:config proxy-target-class="true">
+        <aop:pointcut id="aopint" expression="execution(* com.joker.aops.IBuy.buy(..))"/>
+        <aop:pointcut id="apoint" expression="execution(String com.joker.aops.IBuy.buy(double)) and args(price) and bean(girl)"/>
+
+        <aop:aspect id="qiemian" ref="buyAspect">
+            <aop:before pointcut-ref="aopint"  method="hehe"/>
+            <aop:after method="haha" pointcut-ref="aopint"/>
+            <aop:after-returning method="xixi" pointcut-ref="aopint" />
+            <aop:around method="xxx" pointcut-ref="aopint" />
+
+            <aop:around pointcut-ref="apoint" method="heha"/>
+
+        </aop:aspect>
+    </aop:config>
+
+
+
+</beans>
