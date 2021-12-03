@@ -10,6 +10,8 @@ spring:
 #    username: crisisgo
 #    #密码
 #    password: 123456
+
+
 #    #vhost
 #    virtual-host: /
 
@@ -19,10 +21,13 @@ spring:
     username: admin
     password: admin
     virtual-host: /music
-#    #在需要使用消息的return机制时候，此参数必须设置为true
-#    template:
-#      mandatory: true
-#    #确认消息已发送到队列(Queue)
-#    publisher-returns: true
-#    #确认消息已发送到交换机(Exchange) correlated:开启;NONE:关闭
-#    publisher-confirm-type: correlated
+    listener:
+      simple:
+        acknowledge-mode: manual
+    #在需要使用消息的return机制时候，此参数必须设置为true
+    template:
+      mandatory: true
+    #确认消息已发送到队列(Queue)
+    publisher-returns: true
+    #确认消息已发送到交换机(Exchange) correlated:开启;NONE:关闭
+    publisher-confirm-type: correlated

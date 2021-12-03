@@ -1,7 +1,8 @@
 package com.rabbitmq.provider.controller;
 
 import com.rabbitmq.provider.conf.DeadLetterRabbitConfig;
-import org.springframework.amqp.core.MessageProperties;
+import com.rabbitmq.provider.conf.DelayedMsgRabbitConfig;
+import com.rabbitmq.provider.conf.DelayedRabbitConfig;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -199,45 +200,60 @@ public class SendMessageController {
         map.put("createTime",createTime);
         map.put("type","死信测试");
         //将消息主题：topic.man 发送到交换机TestDirectExchange
-        rabbitTemplate.convertAndSend(DeadLetterRabbitConfig.EXCHANGE,DeadLetterRabbitConfig.ROUTING_KEY,map
-//                message -> {
-//            MessageProperties properties = message.getMessageProperties();
-//            //设置这条消息的过期时间（毫秒）
-//            properties.setExpiration("10000");
-//            return message;
-//        }
-        );
+        rabbitTemplate.convertAndSend(DeadLetterRabbitConfig.EXCHANGE,DeadLetterRabbitConfig.ROUTING_KEY,map);
         return "发送成功";
     }
 
 
 
 
-//    /**
-//     *  延迟队列测试
-//     * @param msg
-//     * @return
-//     */
-//    @GetMapping("/sendDelayedMessage")
-//    public String sendDelayedMessage(String msg,String time){
-//        String messageId = String.valueOf(UUID.randomUUID());
-////        String messageData = "七里香 DirectMessage";
-//        String createTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-//        HashMap<String, Object> map = new HashMap<>();
-//        map.put("messageId",messageId);
-//        map.put("messageData",msg);
-//        map.put("createTime",createTime);
-//        map.put("type","延迟测试");
-//        //将消息主题：topic.man 发送到交换机TestDirectExchange
-//        System.out.println("发送消息:"+new Date().toString()+"--时间："+map.toString());
-//        rabbitTemplate.convertAndSend(DelayedRabbitConfig.DELAYED_EXCHANGE,DelayedRabbitConfig.DELAYED_ROUTING,map, message -> {
-//            MessageProperties properties = message.getMessageProperties();
-//            //设置这条消息的过期时间（毫秒）
-//            properties.setExpiration("10000");
-//            return message;
-//        });
-//        return "发送成功";
-//    }
+    /**
+     *  延迟队列测试（基于队列）
+     * @param msg
+     * @return
+     */
+    @GetMapping("/sendDelayedMessage")
+    public String sendDelayedMessage(String msg,String time){
+        String messageId = String.valueOf(UUID.randomUUID());
+//        String messageData = "七里香 DirectMessage";
+        String createTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("messageId",messageId);
+        map.put("messageData",msg);
+        map.put("createTime",createTime);
+        map.put("type","延迟测试");
+        //将消息主题：topic.man 发送到交换机TestDirectExchange
+        System.out.println("发送消息:"+new Date()+"--时间："+map.toString());
+        rabbitTemplate.convertAndSend(DelayedRabbitConfig.DELAYED_EXCHANGE, DelayedRabbitConfig.DELAYED_ROUTING, map);
+        return "发送成功";
+    }
+
+
+
+
+    /**
+     *  延迟队列测试(基于消息)
+     * @param msg
+     * @return
+     */
+    @GetMapping("/sendDelayedMsgMessage")
+    public String sendDelayedMsgMessage(String msg,Integer time){
+        String messageId = String.valueOf(UUID.randomUUID());
+//        String messageData = "七里香 DirectMessage";
+        String createTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("messageId",messageId);
+        map.put("messageData",msg);
+        map.put("createTime",createTime);
+        map.put("type","延迟消息测试");
+        //将消息主题：topic.man 发送到交换机TestDirectExchange
+        System.out.println("发送消息:"+new Date()+"--时间："+map.toString());
+        rabbitTemplate.convertAndSend(DelayedMsgRabbitConfig.DELAYED_EXCHANGE_NAME, DelayedMsgRabbitConfig.DELAYED_ROUTING_KEY, map, a->{
+            a.getMessageProperties().setDelay(time);
+            return a;
+        });
+        return "发送成功";
+    }
 
 
 
