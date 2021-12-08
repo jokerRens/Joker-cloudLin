@@ -34,6 +34,7 @@
         <module name="eureka2" />
         <module name="zuul" />
         <module name="rabbitmq" />
+        <module name="joker-docker" />
         <module name="joker-jvm" />
         <module name="joker-zuul" />
         <module name="joker-provider3" />
@@ -67,6 +68,7 @@
       <module name="joker-consumer" options="-parameters" />
       <module name="joker-consumer2" options="-parameters" />
       <module name="joker-dashboard" options="-parameters" />
+      <module name="joker-docker" options="-parameters" />
       <module name="joker-elastisearch" options="-parameters" />
       <module name="joker-eureka" options="-parameters" />
       <module name="joker-eureka (1)" options="-parameters" />

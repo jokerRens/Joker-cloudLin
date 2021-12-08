@@ -21,6 +21,7 @@
         <module>joker-consumer2</module>
         <module>joker-shine</module>
         <module>joker-rabbitmq-provider</module>
+        <module>joker-docker</module>
     </modules>
 
     <!--配置所有 src/main/resources下的$XXXX$配置的信息都可以访问-->

@@ -200,7 +200,14 @@ public class SendMessageController {
         map.put("createTime",createTime);
         map.put("type","死信测试");
         //将消息主题：topic.man 发送到交换机TestDirectExchange
-        rabbitTemplate.convertAndSend(DeadLetterRabbitConfig.EXCHANGE,DeadLetterRabbitConfig.ROUTING_KEY,map);
+        rabbitTemplate.convertAndSend(DeadLetterRabbitConfig.EXCHANGE,DeadLetterRabbitConfig.ROUTING_KEY,map
+//                message -> {
+//            MessageProperties properties = message.getMessageProperties();
+//            //设置这条消息的过期时间（毫秒）
+//            properties.setExpiration("10000");
+//            return message;
+//        }
+        );
         return "发送成功";
     }
 
