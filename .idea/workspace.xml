@@ -9,12 +9,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="Joker =&gt; docker">
+    <list default="true" id="dd8e6854-e33c-40e9-80c4-777936286773" name="Default Changelist" comment="Joker =&gt; swagger 3.0.0">
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/bean/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/conf/DBConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joker-shine/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-docker/src/main/java/com/joker/docker/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-docker/src/main/java/com/joker/docker/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-swagger2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-swagger2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/JokerSwagger2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/JokerSwagger2Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/utils/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-swagger2/src/main/java/com/joker/jokerswagger2/utils/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-shine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-shine/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/JokerShineApplicaton.java" beforeDir="false" afterPath="$PROJECT_DIR$/joker-shine/src/main/java/com/joker/JokerShineApplicaton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joker-shine/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/joker-shine/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +48,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -291,7 +303,7 @@
       <recent name="com.rabbitmq.rabbitmq.exchange" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.JokerSwagger2Application">
+  <component name="RunManager" selected="Spring Boot.JokerShineApplication">
     <configuration name="MusicController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rabbitmq.rabbitmq.music.MusicController" />
       <module name="rabbitmq" />
@@ -305,15 +317,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -821,7 +831,9 @@
       <workItem from="1638413473248" duration="33420000" />
       <workItem from="1638757954731" duration="35000" />
       <workItem from="1638758048886" duration="12488000" />
-      <workItem from="1639708233202" duration="2565000" />
+      <workItem from="1639708233202" duration="2764000" />
+      <workItem from="1640251181097" duration="614000" />
+      <workItem from="1641359325937" duration="6519000" />
     </task>
     <task id="LOCAL-00001" summary="Joker =&gt; euraka集群">
       <created>1571319454540</created>
@@ -1012,7 +1024,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638926869127</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Joker =&gt; swagger 3.0.0">
+      <created>1639719755495</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1639719755495</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1158,7 +1177,8 @@
     <MESSAGE value="Joker =&gt; rabbitMQ" />
     <MESSAGE value="Joker =&gt; rabbitMQ延迟队列" />
     <MESSAGE value="Joker =&gt; docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; docker" />
+    <MESSAGE value="Joker =&gt; swagger 3.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Joker =&gt; swagger 3.0.0" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/joker-shine/src/main/java/com/joker/thread/A.java" />
