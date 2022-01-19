@@ -19,4 +19,6 @@ import org.springframework.stereotype.Repository;
 public interface  OrderMapper {
 
     Order selectById(@Param("id") Integer id);
+
+    boolean insertOrder(@Param("userId")Integer userId);
 }

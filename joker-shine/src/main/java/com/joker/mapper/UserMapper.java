@@ -6,6 +6,8 @@ import com.joker.conf.DBConstants;
 import io.lettuce.core.dynamic.annotation.Param;
 import org.springframework.stereotype.Repository;
 
+import javax.jws.soap.SOAPBinding;
+
 /**
  * UserMapper
  *
@@ -19,4 +21,6 @@ import org.springframework.stereotype.Repository;
 public interface  UserMapper {
 
     User selectById(@Param("id") Integer id);
+
+    boolean insertUser(@Param("username")String username,@Param("password")String password);
 }

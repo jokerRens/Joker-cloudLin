@@ -50,4 +50,10 @@ public class TestController {
 
         orderService.method05();
     }
+
+    //场景6
+    @GetMapping("/method6")
+    public void getMethod6(){
+        orderService.method06();
+    }
 }

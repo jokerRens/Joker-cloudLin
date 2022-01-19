@@ -30,5 +30,7 @@ mybatis:
   type-aliases-package: com.datasource.entity # 配置数据库实体包路径
   configuration:
     map-underscore-to-camel-case: true  #开启驼峰
-
+logging:
+  level:
+    com.joker: debug
 

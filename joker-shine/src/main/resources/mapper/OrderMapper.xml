@@ -6,6 +6,9 @@
     <sql id="FIELDS">
         id, user_id
     </sql>
+    <insert id="insertOrder">
+        INSERT INTO orders(user_id) VALUES(#{userId})
+    </insert>
 
     <select id="selectById" parameterType="integer" resultType="com.joker.bean.Order">
         SELECT

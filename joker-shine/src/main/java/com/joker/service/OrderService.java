@@ -8,9 +8,13 @@ import com.joker.mapper.OrderMapper;
 import com.joker.mapper.UserMapper;
 import org.springframework.aop.framework.AopContext;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.TransactionDefinition;
+import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.support.DefaultTransactionDefinition;
 
 /**
  * OrderService
@@ -26,6 +30,12 @@ public class OrderService {
     private OrderMapper orderMapper;
     @Autowired
     private UserMapper userMapper;
+
+    @Autowired
+    DataSourceTransactionManager dataSourceTransactionManager;
+    @Autowired
+    TransactionDefinition transactionDefinition;
+
 
 
     //获取到aop的代理对象（如果用this调用此时拿到的不是aop的代理对象）
@@ -136,6 +146,61 @@ public class OrderService {
         System.out.println(user);
     }
 
+    @DS(DBConstants.DATASOURCE_USERS)
+    public void method06(){
+        //手动开启事务！
+        DefaultTransactionDefinition transactionDefinition = new DefaultTransactionDefinition();
+        transactionDefinition.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
+
+        TransactionStatus transactionStatus = dataSourceTransactionManager.getTransaction(transactionDefinition);
+        try {
+//            User user = userMapper.selectById(1);
+            boolean user2 = userMapper.insertUser("张八","456789");
+            System.out.println(user2);
+            self().method062();
+
+            //提交
+            dataSourceTransactionManager.commit(transactionStatus);
+        }catch (Exception e){
+            System.out.println("method06 error"+e);
+            //最好是放在catch 里面,防止程序异常而事务一直卡在哪里未提交
+            dataSourceTransactionManager.rollback(transactionStatus);
+            throw e;
+        }
+
+    }
+
+    @DS(DBConstants.DATASOURCE_ORDERS)
+    public void method062(){
+        //手动开启事务！
+        DefaultTransactionDefinition transactionDefinition = new DefaultTransactionDefinition();
+        transactionDefinition.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
+        TransactionStatus transactionStatus = dataSourceTransactionManager.getTransaction(transactionDefinition);
+        try {
+            // 查询订单
+//            Order order = orderMapper.selectById(1);
+//            System.out.println(order);
+
+//            User user = userMapper.selectById(2);
+//            System.out.println(user);
+
+            boolean order1 = orderMapper.insertOrder(4);
+            System.out.println(order1);
+
+//            boolean user2 = userMapper.insertUser("孙七","456789");
+//            System.out.println(user2);
+
+            int i = 10/0;
+
+            //提交
+            dataSourceTransactionManager.commit(transactionStatus);
+        }catch (Exception e){
+            System.out.println("method062 error"+e);
+            //最好是放在catch 里面,防止程序异常而事务一直卡在哪里未提交
+            dataSourceTransactionManager.rollback(transactionStatus);
+            throw e;
+        }
+    }
 
 
 }
