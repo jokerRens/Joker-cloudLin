@@ -31,23 +31,45 @@
             <scope>test</scope>
         </dependency>
 
-<!--        &lt;!&ndash;    多数据源    &ndash;&gt;-->
-<!--        &lt;!&ndash; 实现对数据库连接池的自动化配置 &ndash;&gt;-->
+        <!--    多数据源    -->
+        <!-- 实现对数据库连接池的自动化配置 -->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.boot</groupId>-->
 <!--            <artifactId>spring-boot-starter-jdbc</artifactId>-->
 <!--        </dependency>-->
-<!--        <dependency> &lt;!&ndash; 本示例，我们使用 MySQL &ndash;&gt;-->
-<!--            <groupId>mysql</groupId>-->
-<!--            <artifactId>mysql-connector-java</artifactId>-->
-<!--            <version>8.0.13</version>-->
-<!--        </dependency>-->
-<!--        &lt;!&ndash; 实现对 MyBatis 的自动化配置 &ndash;&gt;-->
+        <dependency> <!-- 本示例，我们使用 MySQL -->
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.13</version>
+        </dependency>
+        <!-- 实现对 MyBatis 的自动化配置 -->
 <!--        <dependency>-->
 <!--            <groupId>org.mybatis.spring.boot</groupId>-->
 <!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
 <!--            <version>2.0.0</version>-->
 <!--        </dependency>-->
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.3.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-extension</artifactId>
+            <version>3.4.1</version>
+        </dependency>
+
+
+        <!--https://gitee.com/best_handsome/mybatis-plus-join-->
+        <dependency>
+            <groupId>com.github.yulichang</groupId>
+            <artifactId>mybatis-plus-join</artifactId>
+            <version>1.1.8</version>
+        </dependency>
+
+
 
 
 

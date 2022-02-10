@@ -11,6 +11,7 @@
         <module name="joker-log" />
         <module name="joker-kafka" />
         <module name="joker-rabbitmq-provider" />
+        <module name="joker-mybatisplus" />
         <module name="joker-dashboard" />
         <module name="consumer-feign" />
         <module name="joker-consumer" />
@@ -80,6 +81,7 @@
       <module name="joker-jvm" options="-parameters" />
       <module name="joker-kafka" options="-parameters" />
       <module name="joker-log" options="-parameters" />
+      <module name="joker-mybatisplus" options="-parameters" />
       <module name="joker-provider" options="-parameters" />
       <module name="joker-provider2" options="-parameters" />
       <module name="joker-provider3" options="-parameters" />

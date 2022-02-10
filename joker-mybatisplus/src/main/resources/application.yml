@@ -1,6 +1,18 @@
 server:
   port: 5007
 
+
+spring:
+  application:
+    name: mybatis-plus
+  #数据库连接相关配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/joker?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: 123456
+
+
+
 #
 #spring:
 #  datasource:
@@ -20,3 +32,6 @@ server:
 #          driver-class-name: com.mysql.jdbc.Driver
 #          username: root
 #          password: 123456
+logging:
+  level:
+   com.joker.bean.mapper: debug
