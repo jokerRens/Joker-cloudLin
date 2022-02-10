@@ -1,0 +1,37 @@
+server:
+  port: 5007
+
+
+spring:
+  application:
+    name: mybatis-plus
+  #数据库连接相关配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/joker?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: 123456
+
+
+
+#
+#spring:
+#  datasource:
+#    # dynamic-datasource-spring-boot-starter 动态数据源的配置内容
+#    dynamic:
+#      primary: users # 设置默认的数据源或者数据源组，默认值即为 master
+#      datasource:
+#        # 订单 orders 数据源配置
+#        orders:
+#          url: jdbc:mysql://127.0.0.1:3306/joker?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+#          driver-class-name: com.mysql.jdbc.Driver
+#          username: root
+#          password: 123456
+#        # 用户 users 数据源配置
+#        users:
+#          url: jdbc:mysql://127.0.0.1:3306/permission?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+#          driver-class-name: com.mysql.jdbc.Driver
+#          username: root
+#          password: 123456
+logging:
+  level:
+   com.joker.bean.mapper: debug
