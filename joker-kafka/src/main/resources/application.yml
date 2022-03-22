@@ -3,18 +3,21 @@ cloud:
   stream:
     kafka:
       binder:
-        brokers: 127.0.0.1:9002 #kafka·şÎñµØÖ·ºÍ¶Ë¿Ú
-        zk-nodes: 127.0.0.1:2181 #ZK¼¯ÈºÅäÖÃµØÖ·ºÍ¶Ë¿Ú
+        brokers: 192.168.200.10:9002
+        zk-nodes: 192.168.200.10:2181
 
-#spring:
-#  kafka:
-#    bootstrap-servers: 127.0.0.1:9092
-#    producer:
-#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
-#    consumer:
-#      group-id: test
-#      enable-auto-commit: true
-#      auto-commit-interval: 1000
-#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+spring:
+  kafka:
+    bootstrap-servers: 192.168.200.10:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      enable-auto-commit: true
+      auto-commit-interval: 1000
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      group-id: test
+      max-poll-records: 50 #æ‰¹é‡æ¶ˆè´¹æ¯æ¬¡æœ€å¤šæ¶ˆè´¹å¤šå°‘æ¡æ¶ˆæ¯
+    listener:
+      type: batch  #è®¾ç½®æ‰¹é‡æ¶ˆè´¹

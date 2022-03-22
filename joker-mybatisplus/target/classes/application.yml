@@ -35,3 +35,6 @@ spring:
 logging:
   level:
    com.joker.bean.mapper: debug
+
+
+person: {name: joker}

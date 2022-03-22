@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = {
-        "com.example.jokerkafka.controller"
+        "com.example.jokerkafka.*"
 })
 public class JokerKafkaApplication {
 
