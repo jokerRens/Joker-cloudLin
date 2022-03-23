@@ -21,7 +21,7 @@ public class TestController {
     @RequestMapping("/send")
     public String send(String msg){
         System.out.println("开始发送消息:"+msg);
-        kafkaTemplate.send("jokersend1", msg);
+        kafkaTemplate.send("jokertest", msg);
         System.out.println("发送成功");
         return "success";
     }

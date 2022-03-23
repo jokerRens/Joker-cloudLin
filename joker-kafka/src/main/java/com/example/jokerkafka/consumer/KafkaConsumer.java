@@ -4,12 +4,13 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.kafka.annotation.KafkaListener;
-import org.springframework.kafka.annotation.PartitionOffset;
-import org.springframework.kafka.annotation.TopicPartition;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
+import org.springframework.kafka.config.KafkaListenerEndpointRegistry;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.listener.ConsumerAwareListenerErrorHandler;
 import org.springframework.messaging.handler.annotation.SendTo;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -22,11 +23,21 @@ import java.util.List;
  * 2022/3/18 16:18
  **/
 
+@EnableScheduling
 @Component
 public class KafkaConsumer {
 
     @Autowired
     private ConsumerFactory consumerFactory;
+
+    /**
+     * @KafkaListener 注解所标注的方法并不会在IOC容器中被注册为Bean
+     * 而是会被注册在KafkaListenerEndpointRegistry中
+     * 而KafkaListenerEndpointRegistry在SpringIOC中已经被注册为Bean
+     *
+     */
+    @Autowired
+    private KafkaListenerEndpointRegistry  registry;
 
     @KafkaListener(topics = {"jokertest"})
     public void onMessage(ConsumerRecord record) {
@@ -64,14 +75,14 @@ public class KafkaConsumer {
      * @param record
      */
 //    @KafkaListener(topics = {"jokertest"})
-    public void onMessage3(List<ConsumerRecord> record) {
-        System.out.println("=========================消费消息 START ===========================");
-        System.out.println("此次批量消费条数:" + record.size());
-        for (ConsumerRecord consumerRecord : record) {
-            System.out.println(consumerRecord.topic() + "-" + consumerRecord.partition() + "-" + consumerRecord.value());
-        }
-        System.out.println("=========================消费消息 END ===========================");
-    }
+//    public void onMessage3(List<ConsumerRecord> record) {
+//        System.out.println("=========================消费消息 START ===========================");
+//        System.out.println("此次批量消费条数:" + record.size());
+//        for (ConsumerRecord consumerRecord : record) {
+//            System.out.println(consumerRecord.topic() + "-" + consumerRecord.partition() + "-" + consumerRecord.value());
+//        }
+//        System.out.println("=========================消费消息 END ===========================");
+//    }
 
 
     /**
@@ -79,7 +90,7 @@ public class KafkaConsumer {
      *
      * @return
      */
-    @Bean
+//    @Bean
     public ConsumerAwareListenerErrorHandler consumerAwareListenerErrorHandler() {
         return (message, exception, consumer) -> {
             System.out.println("消费异常：" + message.getPayload());
@@ -93,7 +104,7 @@ public class KafkaConsumer {
      * @param record
      * @throws Exception
      */
-    @KafkaListener(topics = {"jokererror"}, errorHandler = "consumerAwareListenerErrorHandler")
+//    @KafkaListener(topics = {"jokererror"}, errorHandler = "consumerAwareListenerErrorHandler")
     public void onMessage4(ConsumerRecord record) throws Exception {
         throw new Exception("简单消费-模拟异常");
     }
@@ -107,7 +118,7 @@ public class KafkaConsumer {
      *  返回true的时候消息将会被抛弃， 返回false时，消息能正常抵达监听容器。
      * @return
      */
-    @Bean
+//    @Bean
     public ConcurrentKafkaListenerContainerFactory filterContainerFactory() {
         ConcurrentKafkaListenerContainerFactory factory = new ConcurrentKafkaListenerContainerFactory();
         factory.setConsumerFactory(consumerFactory);
@@ -131,7 +142,7 @@ public class KafkaConsumer {
      * @param record
      * @throws Exception
      */
-    @KafkaListener(topics = {"jokerfilter"}, containerFactory = "filterContainerFactory")
+//    @KafkaListener(topics = {"jokerfilter"}, containerFactory = "filterContainerFactory")
     public void onMessage5(ConsumerRecord record) {
         System.out.println("=========================消费过滤消息 START ===========================");
         System.out.println(record.toString());
@@ -147,6 +158,7 @@ public class KafkaConsumer {
     @SendTo("jokersend2")
     public String onMessage6(ConsumerRecord record){
         System.out.println("=========消息转发处理=========");
+        System.out.println(record.value());
         return record.value()+"-forward message";
     }
 
@@ -157,6 +169,51 @@ public class KafkaConsumer {
         System.out.println(record.topic() + "-" + record.partition() + "-" + record.value());
         System.out.println("=========================消费转发后消息 END ===========================");
     }
+
+
+    /**
+     * 监听器容器工厂(设置禁止KafkaListener自启动)
+     * @return
+     */
+    @Bean
+    public ConcurrentKafkaListenerContainerFactory delayContainerFactory(){
+        ConcurrentKafkaListenerContainerFactory container  = new ConcurrentKafkaListenerContainerFactory();
+        container.setConsumerFactory(consumerFactory);
+        //禁止KafkaListener自启动
+        container.setAutoStartup(false);
+        return container;
+    }
+
+    @KafkaListener(topics = {"jokerTime"}, containerFactory = "delayContainerFactory", id = "timingConsumer")
+    public void onMessage8(ConsumerRecord record){
+        System.out.println("=========================消费定时消息 START ===========================");
+        System.out.println(record.toString());
+        System.out.println(record.topic() + "-" + record.partition() + "-" + record.value());
+        System.out.println("=========================消费定时消息 END ===========================");
+    }
+
+    /**
+     * 启动监听器
+     */
+    @Scheduled(cron = "0 15 10 * * ?")
+    public void startListener(){
+        System.out.println("=====================启动监听器=======================");
+        // "timingConsumer"是@KafkaListener注解后面设置的监听器ID,标识这个监听器
+        if(!registry.getListenerContainer("timingConsumer").isRunning()){
+            registry.getListenerContainer("timingConsumer").start();
+        }
+    }
+
+    /**
+     * 停止监听器
+     */
+    @Scheduled(cron = "0 16 10 * * ?")
+    public void shutDownListener(){
+        System.out.println("=====================关闭监听器=======================");
+        registry.getListenerContainer("timingConsumer").pause();
+    }
+
+
 
 
 }
