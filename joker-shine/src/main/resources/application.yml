@@ -2,24 +2,40 @@ server:
   port: 5006
 
 
+#spring:
+#  datasource:
+#    # dynamic-datasource-spring-boot-starter 动态数据源的配置内容
+#    dynamic:
+#      primary: users # 设置默认的数据源或者数据源组，默认值即为 master
+#      datasource:
+#        # 订单 orders 数据源配置
+#        orders:
+#          url: jdbc:mysql://127.0.0.1:3306/joker?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+#          driver-class-name: com.mysql.jdbc.Driver
+#          username: root
+#          password: 123456
+#        # 用户 users 数据源配置
+#        users:
+#          url: jdbc:mysql://127.0.0.1:3306/permission?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+#          driver-class-name: com.mysql.jdbc.Driver
+#          username: root
+#          password: 123456
+
+
+
 spring:
   datasource:
-    # dynamic-datasource-spring-boot-starter 动态数据源的配置内容
-    dynamic:
-      primary: users # 设置默认的数据源或者数据源组，默认值即为 master
-      datasource:
-        # 订单 orders 数据源配置
-        orders:
-          url: jdbc:mysql://127.0.0.1:3306/joker?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-          driver-class-name: com.mysql.jdbc.Driver
-          username: root
-          password: 123456
-        # 用户 users 数据源配置
-        users:
-          url: jdbc:mysql://127.0.0.1:3306/permission?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-          driver-class-name: com.mysql.jdbc.Driver
-          username: root
-          password: 123456
+    hikari:
+      master:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/joker?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: 123456
+      slave:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/permission?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+        username: root
+        password: 123456
 
 
 

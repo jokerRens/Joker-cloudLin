@@ -15,21 +15,21 @@ import java.sql.SQLException;
  **/
 //事务管理器
 
-@Component
+//@Component
 public class JokerTransactionalManager {
-
-    Connection connection;
-
-    @Autowired
-    DataSource dataSource;
-
-
-    public Connection getConnection() throws SQLException {
-        if(connection == null){
-            connection = dataSource.getConnection();
-        }
-
-        return  connection;
-    }
+//
+//    Connection connection;
+//
+//    @Autowired
+//    DataSource dataSource;
+//
+//
+//    public Connection getConnection() throws SQLException {
+//        if(connection == null){
+//            connection = dataSource.getConnection();
+//        }
+//
+//        return  connection;
+//    }
 
 }

@@ -138,13 +138,13 @@ public class TransactionalController {
      * 自定义实现 类似spring事务功能
      *
      */
-    @JokerTransactional  // 声明 -- 告诉其他代码、这个方法需要进行事务控制
-    public void demo2() throws SQLException {
-        //业务代码-------------
-        jokerMapper.execute("sql1");
-        jokerMapper.execute("sql2");
-        int i = 10/0; //人造异常
-        //业务代码 ----------
-    }
+//    @JokerTransactional  // 声明 -- 告诉其他代码、这个方法需要进行事务控制
+//    public void demo2() throws SQLException {
+//        //业务代码-------------
+//        jokerMapper.execute("sql1");
+//        jokerMapper.execute("sql2");
+//        int i = 10/0; //人造异常
+//        //业务代码 ----------
+//    }
 
 }
