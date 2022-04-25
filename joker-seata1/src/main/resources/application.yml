@@ -1,5 +1,7 @@
 server:
   port: 5008
+  application:
+    name: seata1
 
 
 spring:
@@ -10,13 +12,14 @@ spring:
       datasource:
         # 订单 orders 数据源配置
         orders:
-          url: jdbc:mysql://127.0.0.1:3306/joker?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          url: jdbc:mysql://127.0.0.1:3306/joker?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
           driver-class-name: com.mysql.jdbc.Driver
           username: root
           password: 123456
+
         # 用户 users 数据源配置
         users:
-          url: jdbc:mysql://127.0.0.1:3306/permission?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          url: jdbc:mysql://127.0.0.1:3306/permission?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true
           driver-class-name: com.mysql.jdbc.Driver
           username: root
           password: 123456
