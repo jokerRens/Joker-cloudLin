@@ -45,6 +45,12 @@ public class UserInfoController {
         boolean save = userInfoService.save(userInfo);
     }
 
+    @GetMapping("/test1")
+    public String test1(){
+        List<UserInfo> list = userInfoService.list();
+        return list.get(0).toString();
+    }
+
 
     /**
      * 联表查询单个
