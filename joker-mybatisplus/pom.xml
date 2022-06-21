@@ -40,7 +40,7 @@
         <dependency> <!-- 本示例，我们使用 MySQL -->
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.13</version>
+            <version>8.0.28</version>
         </dependency>
         <!-- 实现对 MyBatis 的自动化配置 -->
 <!--        <dependency>-->
