@@ -7,13 +7,13 @@
         id, user_id
     </sql>
     <insert id="insertOrder">
-        INSERT INTO orders(user_id) VALUES(#{userId})
+        INSERT INTO `orders`(user_id) VALUES(#{userId})
     </insert>
 
     <select id="selectById" parameterType="integer" resultType="com.joker.bean.Order">
         SELECT
         <include refid="FIELDS" />
-        FROM orders
+        FROM `order`
         WHERE id = #{id}
     </select>
 

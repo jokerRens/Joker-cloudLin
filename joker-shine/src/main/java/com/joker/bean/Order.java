@@ -1,5 +1,6 @@
 package com.joker.bean;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 import java.io.Serializable;

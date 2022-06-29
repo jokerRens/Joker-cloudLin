@@ -140,7 +140,7 @@ public class RestTestController {
 
     @RequestMapping("/getbook")
     public String getBook(){
-        ResponseEntity<com.joker.seata1.controller.Book> entity = restTemplate.getForEntity("http://127.0.0.1:5008/test5", com.joker.seata1.controller.Book.class);
+        ResponseEntity<Book> entity = restTemplate.getForEntity("http://127.0.0.1:5008/test5", com.joker.seata1.controller.Book.class);
         Book body = entity.getBody();
         StringBuffer result = new StringBuffer();
         result.append("responseEntity.getBody()：").append(body).append("<hr>");

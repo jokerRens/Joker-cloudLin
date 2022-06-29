@@ -48,10 +48,10 @@ public class OrderService {
     //未开启事务，则可以自己使用自己的数据源，并不会报异常
     public void method01() {
         // 查询订单
-        Order order = orderMapper.selectById(1);
-        System.out.println(order);
+//        Order order = orderMapper.selectById(1);
+//        System.out.println(order);
         // 查询用户
-        User user = userMapper.selectById(order.getUserId());
+        User user = userMapper.selectById(4);
         System.out.println(user);
     }
 
